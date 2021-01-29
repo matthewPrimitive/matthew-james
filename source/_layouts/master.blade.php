@@ -28,10 +28,13 @@
         @if ($page->production)
             {!! $page->siteAnalytics !!}
         @endif
+        <link rel="preconnect" href="https://fonts.gstatic.com">
 
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         
+
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -47,7 +50,7 @@
 
                         <div class="nav-links">
                             <a class="text-lg md:text-2xl text-darkBlueGrey font-semibold transition hover:text-blue-600 my-0 mx-4" href="#about">About</a>
-                            <a class="text-lg md:text-2xl text-darkBlueGrey font-semibold transition hover:text-blue-600 my-0 mx-4" href="#contact-us">Contact Us</a>
+                            <a class="text-lg md:text-2xl text-darkBlueGrey font-semibold transition hover:text-blue-600 my-0 mx-4" href="#contact-us">Contact Me</a>
                         </div>
                     </div>
                 </div>

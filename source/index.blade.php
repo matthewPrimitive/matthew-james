@@ -2,36 +2,32 @@
 
 @section('body')
 
-<div class="hero-container bg-mainOrange pt-56 pb-32">
-    <div class="hero w-4/5 mx-auto flex flex-col justify-center h-full">
-        <h1 class="text-white">Cupid Torch</h1>
-        <div class="pb-4 flex sm:items-center flex-col sm:flex-row">
-            <h3 class="text-white">Web Development </h3>
-            <h3 class="text-white mx-3 sm:block hidden">|</h3>
-            <h3 class="text-white">Client Assisting</h3>
-        </div>
-        
-    </div>
-</div>
+<home-hero></home-hero>
 
 <div id="about" class="w-4/5 mx-auto pt-32 pb-16">
-    <h2 class="text-darkBlueGrey">What We Do?</h2>
-    <p class="text-darkBlueGrey">Cupid Torch is a web development and client assisting company, that also looks forward to assisting you with your online needs.</p>
-    <p class="text-darkBlueGrey">We create, maintain, and fix websites. With experience in web development and remote work, we will deliver in a timely manner with beautiful websites.</p>
-    <p class="text-darkBlueGrey">Communication is key! Communication is one the most important parts of a relationship. There is no need to worry about waiting days for a response from us.</p>
+    <h2 class="text-darkBlueGrey">What I Do?</h2>
+    <p class="text-darkBlueGrey">I am a web developer that also assists clients, and I look forward to assisting you with your online needs.</p>
+    <p class="text-darkBlueGrey">I create, maintain, and fix websites. With experience in web development and remote work, I will deliver in a timely manner with beautiful websites.</p>
+    <p class="text-darkBlueGrey">Communication is key! Communication is one the most important parts of a relationship. There is no need to worry about waiting days for a response from me.</p>
 </div>
 
 <div id="process" class="w-4/5 mx-auto pt-32 pb-16">
     <h2 class="text-darkBlueGrey">The Process</h2>
     <div class="step">
         <h2 class="text-darkBlueGrey">1.</h2>
-        <p class="text-darkBlueGrey"></p>
+        <p class="text-darkBlueGrey">Fill out the form below and connect with me!</p>
+
+        <h2 class="text-darkBlueGrey">2.</h2>
+        <p class="text-darkBlueGrey">I will be in contact with you soon after I recieve your message.</p>
+
+        <h2 class="text-darkBlueGrey">3.</h2>
+        <p class="text-darkBlueGrey">We will work together to find the solution that works best for you!</p>
     </div>
 </div>
 
 <div id="contact-us" class="w-4/5 mx-auto pb-32 pt-16">
-    <h2 class="text-darkBlueGrey mx-4">Interested in working with us?</h2>
-    <h4 class="mx-4">Fill out the form below to contact us!</h4>
+    <h2 class="text-darkBlueGrey mx-4">Interested in working with me?</h2>
+    <h4 class="mx-4">Fill out the form below to reach out!</h4>
 
     <form method="post" enctype="text/plain" action="mailto:jamesmmatt@example.com">
         <div class="flex flex-wrap">

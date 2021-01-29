@@ -8,6 +8,7 @@ import LazyLoad from "vanilla-lazyload";
 // Primitive Vue Components
 import Search from './components/Search.vue';
 import PrimitiveForm from './components/PrimitiveForm.vue';
+import HomeHero from './components/HomeHero.vue';
 
 const lazyLoadInstance = new LazyLoad({
     elements_selector: ".lazy"
@@ -16,6 +17,7 @@ const lazyLoadInstance = new LazyLoad({
 new Vue({
     components: {
         Search,
-        PrimitiveForm
+        PrimitiveForm,
+        HomeHero
     },
 }).$mount('#app');
