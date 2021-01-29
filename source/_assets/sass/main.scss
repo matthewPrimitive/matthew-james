@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+
+// Code syntax highlighting,
+// powered by https://highlightjs.org
+@import '~highlight.js/styles/a11y-light.css';
+
+@import 'base';
+@import 'navigation';
+@import 'mailchimp';
+@import 'blog';
+
+@import 'colors';
+
+@tailwind utilities;
+
+h1 {
+    font-family: 'Ramabhadra', sans-serif;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: 'Ramabhadra', sans-serif;
+    font-weight: 100;
+}
+
+h3 {
+    margin: 0;
+}
+
+.social-icon img {
+    &:hover {
+        filter: drop-shadow(2px 4px 6px black);
+    }   
+}
