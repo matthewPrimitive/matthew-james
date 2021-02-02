@@ -49,7 +49,7 @@ export default {
 
 .view-enter, .view-leave-to {
     opacity: 0;
-    transform: translate(-40px, -40px);
+    transform: translate(-40px, 0px);
 }
 
 .view-enter-to, .view-leave {

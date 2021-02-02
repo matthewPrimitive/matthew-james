@@ -14,14 +14,21 @@
 <div id="process" class="w-4/5 mx-auto pt-32 pb-16">
     <h2 class="text-darkBlueGrey">The Process</h2>
     <div class="step">
-        <h2 class="text-darkBlueGrey">1.</h2>
-        <p class="text-darkBlueGrey">Fill out the form below and connect with me!</p>
+        <div class="flex align-center just-center">
+            <h2 class="text-darkBlueGrey pr-3">1.</h2>
+            <p class="text-darkBlueGrey">Fill out the form below and connect with me!</p>
+        </div>
+        
 
-        <h2 class="text-darkBlueGrey">2.</h2>
-        <p class="text-darkBlueGrey">I will be in contact with you soon after I recieve your message.</p>
+        <div class="flex align-center just-center">
+            <h2 class="text-darkBlueGrey pr-3">2.</h2>
+            <p class="text-darkBlueGrey">I will be in contact with you soon after I recieve your message.</p>
+        </div>
 
-        <h2 class="text-darkBlueGrey">3.</h2>
-        <p class="text-darkBlueGrey">We will work together to find the solution that works best for you!</p>
+        <div class="flex align-center just-center">
+            <h2 class="text-darkBlueGrey pr-3">3.</h2>
+            <p class="text-darkBlueGrey">We will work together to find the solution that works best for you!</p>
+        </div>
     </div>
 </div>
 

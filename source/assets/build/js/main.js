@@ -1937,7 +1937,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".view-leave-active[data-v-44cb3fe2] {\n  transition: opacity 0.5s ease-in-out, transform 1.2s ease;\n}\n.view-enter-active[data-v-44cb3fe2] {\n  transition: opacity 0.5s ease-in-out, transform 1.2s ease;\n  transition-delay: 0.5s;\n}\n.view-enter[data-v-44cb3fe2], .view-leave-to[data-v-44cb3fe2] {\n  opacity: 0;\n  transform: translate(-40px, -40px);\n}\n.view-enter-to[data-v-44cb3fe2], .view-leave[data-v-44cb3fe2] {\n  opacity: 1;\n  transform: translate(0px, 0px);\n}", ""]);
+exports.push([module.i, ".view-leave-active[data-v-44cb3fe2] {\n  transition: opacity 0.5s ease-in-out, transform 1.2s ease;\n}\n.view-enter-active[data-v-44cb3fe2] {\n  transition: opacity 0.5s ease-in-out, transform 1.2s ease;\n  transition-delay: 0.5s;\n}\n.view-enter[data-v-44cb3fe2], .view-leave-to[data-v-44cb3fe2] {\n  opacity: 0;\n  transform: translate(-40px, 0px);\n}\n.view-enter-to[data-v-44cb3fe2], .view-leave[data-v-44cb3fe2] {\n  opacity: 1;\n  transform: translate(0px, 0px);\n}", ""]);
 
 // exports
 
