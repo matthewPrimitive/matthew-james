@@ -27,6 +27,9 @@
         "yargs": "^4.6.0"
     },
     "dependencies": {
-        "vanilla-lazyload": "^12.1.0"
+        "aos": "^2.3.4",
+        "jquery": "^3.6.0",
+        "vanilla-lazyload": "^12.1.0",
+        "vue-typed-js": "^0.1.2"
     }
 }

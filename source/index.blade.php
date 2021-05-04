@@ -4,40 +4,54 @@
 
 <home-hero></home-hero>
 
-<div id="about" class="w-4/5 mx-auto pt-32 pb-16">
-    <h2 class="text-darkBlueGrey">What I Do?</h2>
-    <p class="text-darkBlueGrey">I am a web developer that also assists clients, and I look forward to assisting you with your online needs.</p>
-    <p class="text-darkBlueGrey">I create, maintain, and fix websites. With experience in web development and remote work, I will deliver in a timely manner with beautiful websites.</p>
-    <p class="text-darkBlueGrey">Communication is key! Communication is one the most important parts of a relationship. There is no need to worry about waiting days for a response from me.</p>
-</div>
-
-<div id="process" class="w-4/5 mx-auto pt-32 pb-16">
-    <h2 class="text-darkBlueGrey">The Process</h2>
-    <div class="step">
-        <div class="flex align-center just-center">
-            <h2 class="text-darkBlueGrey pr-3">1.</h2>
-            <p class="text-darkBlueGrey">Fill out the form below and connect with me!</p>
-        </div>
-        
-
-        <div class="flex align-center just-center">
-            <h2 class="text-darkBlueGrey pr-3">2.</h2>
-            <p class="text-darkBlueGrey">I will be in contact with you soon after I recieve your message.</p>
-        </div>
-
-        <div class="flex align-center just-center">
-            <h2 class="text-darkBlueGrey pr-3">3.</h2>
-            <p class="text-darkBlueGrey">We will work together to find the solution that works best for you!</p>
-        </div>
+<div class="cta" id="cta">
+    <div class="cta__content" data-aos="fade-right" data-aos-delay="0" data-aos-duration="1000">
+        <p>Interested in learning more?</p>
+    </div>
+    <div class="cta__btn" data-aos="fade-left" data-aos-delay="0" data-aos-duration="1000">
+        <a href="#contact-us">Contact Us Today!</a>
     </div>
 </div>
 
-<div id="contact-us" class="w-4/5 mx-auto pb-32 pt-16">
-    <h2 class="text-darkBlueGrey mx-4">Interested in working with me?</h2>
-    <h4 class="mx-4">Fill out the form below to reach out!</h4>
+<section class="origin" id="origin">
+    <div class="origin__inner wrapper come-in">
+        <div class="origin__col" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
+            <div class="origin__image">
+                <img loading="lazy" src="/assets/img/home-hero.jpeg" alt="background jarallax image" />
+            </div>
+        </div>
+        <div class="origin__col" data-aos="fade-down" data-aos-delay="0" data-aos-duration="1000">
+            <div class="origin__info">
+                <div class="origin__pull">
+                    <p class="origin__sub">MARKABLE</p>
+                    <h2 class="origin__title">What We Do</h2>
+                    <p class="origin__content">
+                        Markable creates custom web design and development. We Specialize in creating custom websites to our clients needs.
+                    </p>
+                </div>
+                <div class="origin__tabbed">
+                    <div class="origin__head">
+                        <button class="origin__head__tab active js-origin__head__tab" data-item="first">Web Development</button>
+                        <button class="origin__head__tab js-origin__head__tab" data-item="second">Client Assisting</button>
+                    </div>
+                    <div class="origin__tab js-origin__tab active" id="first">
+                        We create custom websites for our clients needs. If you are in need for just a simple one page website or are looking for something a little bit bigger to help drive in customers for your busniness then Markable is for you.
+                    </div>
+                    <div class="origin__tab js-origin__tab" id="second">
+                        With technology changing everyday it can be hard to keep up. Markable is here to help guide you down the road.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <form method="post" enctype="text/plain" action="mailto:jamesmmatt@example.com">
-        <div class="flex flex-wrap">
+<div id="contact-us" class="w-4/5 mx-auto pb-32 pt-16">
+    <h2 data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="text-darkBlueGrey mx-4">Interested in working with us?</h2>
+    <h4 data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="mx-4">Fill out the form below to reach out!</h4>
+
+    <form action="https://getform.io/f/0ba3603d-b4ee-4df3-9864-61b42a81631f" method="POST">
+        <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="flex flex-wrap">
             <div class="w-full pb-4">
                 <div class="flex flex-col mx-4">
                     <label for="company_name">Company Name</label>

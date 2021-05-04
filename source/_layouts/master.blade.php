@@ -30,16 +30,16 @@
         @endif
         <link rel="preconnect" href="https://fonts.gstatic.com">
 
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Open+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         
 
-        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <div id="app" class="flex flex-col justify-between min-h-screen bg-white text-gray-800 leading-normal font-sans">
-            <header class="flex items-center shadow bg-white border-b h-24 py-4 fixed w-full" role="banner">
+            {{-- <header class="flex items-center shadow bg-white border-b h-24 py-4 fixed w-full" role="banner">
                 <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                     <div class="flex items-center justify-between w-full">
                         <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                 </div>
-            </header>
+            </header> --}}
 
             @include('_nav.menu-responsive')
 
@@ -64,12 +64,12 @@
 
             <footer class="bg-white text-sm py-8 bg-darkBlueGrey" role="contentinfo">
                 <div class="w-4/5 mx-auto">
-                    <h4 class="text-white">Social Media</h4>
-                    <div class="flex">
+                    <h4 class="text-white">Markable</h4>
+                    {{-- <div class="flex">
                         <a href="https://twitter.com/markmattjames" class="social-icon mr-2" target="_blank"><img class="w-8 transition" src="/assets/img/twitter-5-xl.png" alt=""></a>
                         <a href="https://www.instagram.com/mattmarkjames/" class="social-icon mr-2" target="_blank"><img class="w-8 transition" src="/assets/img/instagram-5-64.png" alt=""></a>
                         <a href="https://www.facebook.com/matthew.james.58760608" class="social-icon mr-2" target="_blank"><img class="w-8 transition" src="/assets/img/facebook-5-64.png" alt=""></a>
-                    </div>
+                    </div> --}}
                 </div>
             </footer>
         </div>

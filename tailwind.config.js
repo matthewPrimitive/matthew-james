@@ -2,7 +2,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        darkBlueGrey: '#454d66',
+        darkBlueGrey: '#282651;',
         hoverDarkBlueGrey: '#687498',
         blueGreen: '#009975',
         treeGreen: '#58b368',

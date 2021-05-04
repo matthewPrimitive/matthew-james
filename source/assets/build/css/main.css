@@ -1440,7 +1440,7 @@ pre code {
 }
 
 .bg-darkBlueGrey{
-  background-color: #454d66;
+  background-color: #282651;;
 }
 
 .bg-hoverDarkBlueGrey{
@@ -1848,7 +1848,7 @@ pre code {
 }
 
 .hover\:bg-darkBlueGrey:hover{
-  background-color: #454d66;
+  background-color: #282651;;
 }
 
 .hover\:bg-hoverDarkBlueGrey:hover{
@@ -2256,7 +2256,7 @@ pre code {
 }
 
 .focus\:bg-darkBlueGrey:focus{
-  background-color: #454d66;
+  background-color: #282651;;
 }
 
 .focus\:bg-hoverDarkBlueGrey:focus{
@@ -2744,7 +2744,7 @@ pre code {
 }
 
 .border-darkBlueGrey{
-  border-color: #454d66;
+  border-color: #282651;;
 }
 
 .border-hoverDarkBlueGrey{
@@ -3152,7 +3152,7 @@ pre code {
 }
 
 .hover\:border-darkBlueGrey:hover{
-  border-color: #454d66;
+  border-color: #282651;;
 }
 
 .hover\:border-hoverDarkBlueGrey:hover{
@@ -3560,7 +3560,7 @@ pre code {
 }
 
 .focus\:border-darkBlueGrey:focus{
-  border-color: #454d66;
+  border-color: #282651;;
 }
 
 .focus\:border-hoverDarkBlueGrey:focus{
@@ -8980,23 +8980,23 @@ pre code {
 }
 
 .placeholder-darkBlueGrey::-webkit-input-placeholder{
-  color: #454d66;
+  color: #282651;;
 }
 
 .placeholder-darkBlueGrey::-moz-placeholder{
-  color: #454d66;
+  color: #282651;;
 }
 
 .placeholder-darkBlueGrey:-ms-input-placeholder{
-  color: #454d66;
+  color: #282651;;
 }
 
 .placeholder-darkBlueGrey::-ms-input-placeholder{
-  color: #454d66;
+  color: #282651;;
 }
 
 .placeholder-darkBlueGrey::placeholder{
-  color: #454d66;
+  color: #282651;;
 }
 
 .placeholder-hoverDarkBlueGrey::-webkit-input-placeholder{
@@ -11020,23 +11020,23 @@ pre code {
 }
 
 .focus\:placeholder-darkBlueGrey:focus::-webkit-input-placeholder{
-  color: #454d66;
+  color: #282651;;
 }
 
 .focus\:placeholder-darkBlueGrey:focus::-moz-placeholder{
-  color: #454d66;
+  color: #282651;;
 }
 
 .focus\:placeholder-darkBlueGrey:focus:-ms-input-placeholder{
-  color: #454d66;
+  color: #282651;;
 }
 
 .focus\:placeholder-darkBlueGrey:focus::-ms-input-placeholder{
-  color: #454d66;
+  color: #282651;;
 }
 
 .focus\:placeholder-darkBlueGrey:focus::placeholder{
-  color: #454d66;
+  color: #282651;;
 }
 
 .focus\:placeholder-hoverDarkBlueGrey:focus::-webkit-input-placeholder{
@@ -11811,7 +11811,7 @@ pre code {
 }
 
 .text-darkBlueGrey{
-  color: #454d66;
+  color: #282651;;
 }
 
 .text-hoverDarkBlueGrey{
@@ -12219,7 +12219,7 @@ pre code {
 }
 
 .hover\:text-darkBlueGrey:hover{
-  color: #454d66;
+  color: #282651;;
 }
 
 .hover\:text-hoverDarkBlueGrey:hover{
@@ -12627,7 +12627,7 @@ pre code {
 }
 
 .focus\:text-darkBlueGrey:focus{
-  color: #454d66;
+  color: #282651;;
 }
 
 .focus\:text-hoverDarkBlueGrey:focus{
@@ -13340,16 +13340,22 @@ pre code {
 }
 
 h1 {
-  font-family: "Varela Round", sans-serif;
-  font-weight: 100;
+  font-family: "Julius Sans One", sans-serif;
+  margin: 0;
 }
 
 h2 {
-  font-family: "Varela Round", sans-serif;
-  font-weight: 100;
+  font-family: "Julius Sans One", sans-serif;
+  margin: 0;
 }
 
 h3 {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
   margin: 0;
 }
 
@@ -13363,6 +13369,264 @@ h3 {
   background-repeat: no-repeat;
   background-position: top left;
   background-attachment: fixed;
+}
+
+.wrapper {
+  max-width: 80%;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.origin {
+  padding: 75px 0;
+  background-color: #282651;
+}
+
+.origin__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 800px) {
+  .origin__inner {
+    flex-direction: column;
+  }
+}
+
+.origin__col {
+  flex-basis: 50%;
+  max-width: 50%;
+  flex-grow: 1;
+}
+
+@media only screen and (max-width: 800px) {
+  .origin__col {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+.origin__image {
+  position: relative;
+  max-width: 100%;
+  height: 442px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 800px) {
+  .origin__image {
+    height: 300px;
+  }
+}
+
+.origin__image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.origin__info {
+  padding-left: 46px;
+  padding-top: 90px;
+}
+
+@media only screen and (max-width: 800px) {
+  .origin__info {
+    padding-left: 0;
+    padding-top: 30px;
+  }
+}
+
+.origin__pull {
+  margin-left: -110px;
+  position: relative;
+}
+
+@media only screen and (max-width: 800px) {
+  .origin__pull {
+    margin-left: 0;
+  }
+}
+
+.origin__sub {
+  font-size: 12px;
+  color: white;
+  letter-spacing: 1.16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.origin__title {
+  font-size: 36px;
+  color: #4990c4;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 800px) {
+  .origin__title {
+    margin-bottom: 20px;
+  }
+}
+
+.origin__content {
+  font-size: 14px;
+  color: white;
+  letter-spacing: -0.2px;
+  line-height: 23px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .origin__content {
+    margin-bottom: 40px;
+  }
+}
+
+.origin__content span {
+  color: #4990c4;
+}
+
+.origin__tab {
+  transition: 0.4s;
+  font-size: 12px;
+  color: white;
+  letter-spacing: 0;
+  line-height: 19px;
+  font-weight: 600;
+  width: 450px;
+  max-width: 90%;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  height: 0;
+  transform: translateY(100%);
+}
+
+@media only screen and (max-width: 800px) {
+  .origin__tab {
+    max-width: 100%;
+  }
+}
+
+.origin__tab.active {
+  visibility: visible;
+  opacity: 1;
+  height: auto;
+  transform: translateX(0);
+}
+
+.origin__head {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .origin__head {
+    flex-direction: column;
+  }
+}
+
+.origin__head__tab {
+  transition: 0.4s;
+  font-size: 12px;
+  color: white;
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px;
+  min-width: 140px;
+  box-shadow: none;
+  border: 2px solid #4990c4;
+  display: inline-block;
+  outline: none !important;
+  cursor: pointer;
+}
+
+.origin__head__tab.active, .origin__head__tab:hover {
+  color: #ffffff;
+  border: 2px solid #4990c4;
+  background: #4990c4;
+}
+
+.cta {
+  background: #f8f7f2;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+@media only screen and (max-width: 800px) {
+  .cta {
+    flex-direction: column;
+  }
+}
+
+.cta__content {
+  flex-basis: 70%;
+  max-width: 70%;
+  padding-left: 10%;
+}
+
+@media only screen and (max-width: 800px) {
+  .cta__content {
+    flex-basis: 100%;
+    max-width: 100%;
+    padding-left: 0;
+  }
+}
+
+.cta__content p {
+  margin: 0;
+  font-size: 30px;
+  color: #282651;
+  letter-spacing: 0;
+  line-height: 29px;
+  font-family: "DM Serif Display", serif;
+  width: 550px;
+  max-width: 90%;
+}
+
+@media only screen and (max-width: 800px) {
+  .cta__content p {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+}
+
+.cta__btn {
+  flex-basis: 28%;
+  max-width: 28%;
+  text-align: center;
+  border-left: 1px solid #282651;
+}
+
+@media only screen and (max-width: 800px) {
+  .cta__btn {
+    flex-basis: 100%;
+    max-width: 100%;
+    border-left: 0;
+  }
+}
+
+.cta__btn a {
+  font-size: 12px;
+  color: #282651;
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+  padding: 50px 0;
+  display: block;
 }
 
 @media (min-width: 640px){
@@ -13803,7 +14067,7 @@ h3 {
   }
 
   .sm\:bg-darkBlueGrey{
-    background-color: #454d66;
+    background-color: #282651;;
   }
 
   .sm\:bg-hoverDarkBlueGrey{
@@ -14211,7 +14475,7 @@ h3 {
   }
 
   .sm\:hover\:bg-darkBlueGrey:hover{
-    background-color: #454d66;
+    background-color: #282651;;
   }
 
   .sm\:hover\:bg-hoverDarkBlueGrey:hover{
@@ -14619,7 +14883,7 @@ h3 {
   }
 
   .sm\:focus\:bg-darkBlueGrey:focus{
-    background-color: #454d66;
+    background-color: #282651;;
   }
 
   .sm\:focus\:bg-hoverDarkBlueGrey:focus{
@@ -15107,7 +15371,7 @@ h3 {
   }
 
   .sm\:border-darkBlueGrey{
-    border-color: #454d66;
+    border-color: #282651;;
   }
 
   .sm\:border-hoverDarkBlueGrey{
@@ -15515,7 +15779,7 @@ h3 {
   }
 
   .sm\:hover\:border-darkBlueGrey:hover{
-    border-color: #454d66;
+    border-color: #282651;;
   }
 
   .sm\:hover\:border-hoverDarkBlueGrey:hover{
@@ -15923,7 +16187,7 @@ h3 {
   }
 
   .sm\:focus\:border-darkBlueGrey:focus{
-    border-color: #454d66;
+    border-color: #282651;;
   }
 
   .sm\:focus\:border-hoverDarkBlueGrey:focus{
@@ -21343,23 +21607,23 @@ h3 {
   }
 
   .sm\:placeholder-darkBlueGrey::-webkit-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .sm\:placeholder-darkBlueGrey::-moz-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .sm\:placeholder-darkBlueGrey:-ms-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .sm\:placeholder-darkBlueGrey::-ms-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .sm\:placeholder-darkBlueGrey::placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .sm\:placeholder-hoverDarkBlueGrey::-webkit-input-placeholder{
@@ -23383,23 +23647,23 @@ h3 {
   }
 
   .sm\:focus\:placeholder-darkBlueGrey:focus::-webkit-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .sm\:focus\:placeholder-darkBlueGrey:focus::-moz-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .sm\:focus\:placeholder-darkBlueGrey:focus:-ms-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .sm\:focus\:placeholder-darkBlueGrey:focus::-ms-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .sm\:focus\:placeholder-darkBlueGrey:focus::placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .sm\:focus\:placeholder-hoverDarkBlueGrey:focus::-webkit-input-placeholder{
@@ -24174,7 +24438,7 @@ h3 {
   }
 
   .sm\:text-darkBlueGrey{
-    color: #454d66;
+    color: #282651;;
   }
 
   .sm\:text-hoverDarkBlueGrey{
@@ -24582,7 +24846,7 @@ h3 {
   }
 
   .sm\:hover\:text-darkBlueGrey:hover{
-    color: #454d66;
+    color: #282651;;
   }
 
   .sm\:hover\:text-hoverDarkBlueGrey:hover{
@@ -24990,7 +25254,7 @@ h3 {
   }
 
   .sm\:focus\:text-darkBlueGrey:focus{
-    color: #454d66;
+    color: #282651;;
   }
 
   .sm\:focus\:text-hoverDarkBlueGrey:focus{
@@ -26133,7 +26397,7 @@ h3 {
   }
 
   .md\:bg-darkBlueGrey{
-    background-color: #454d66;
+    background-color: #282651;;
   }
 
   .md\:bg-hoverDarkBlueGrey{
@@ -26541,7 +26805,7 @@ h3 {
   }
 
   .md\:hover\:bg-darkBlueGrey:hover{
-    background-color: #454d66;
+    background-color: #282651;;
   }
 
   .md\:hover\:bg-hoverDarkBlueGrey:hover{
@@ -26949,7 +27213,7 @@ h3 {
   }
 
   .md\:focus\:bg-darkBlueGrey:focus{
-    background-color: #454d66;
+    background-color: #282651;;
   }
 
   .md\:focus\:bg-hoverDarkBlueGrey:focus{
@@ -27437,7 +27701,7 @@ h3 {
   }
 
   .md\:border-darkBlueGrey{
-    border-color: #454d66;
+    border-color: #282651;;
   }
 
   .md\:border-hoverDarkBlueGrey{
@@ -27845,7 +28109,7 @@ h3 {
   }
 
   .md\:hover\:border-darkBlueGrey:hover{
-    border-color: #454d66;
+    border-color: #282651;;
   }
 
   .md\:hover\:border-hoverDarkBlueGrey:hover{
@@ -28253,7 +28517,7 @@ h3 {
   }
 
   .md\:focus\:border-darkBlueGrey:focus{
-    border-color: #454d66;
+    border-color: #282651;;
   }
 
   .md\:focus\:border-hoverDarkBlueGrey:focus{
@@ -33673,23 +33937,23 @@ h3 {
   }
 
   .md\:placeholder-darkBlueGrey::-webkit-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .md\:placeholder-darkBlueGrey::-moz-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .md\:placeholder-darkBlueGrey:-ms-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .md\:placeholder-darkBlueGrey::-ms-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .md\:placeholder-darkBlueGrey::placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .md\:placeholder-hoverDarkBlueGrey::-webkit-input-placeholder{
@@ -35713,23 +35977,23 @@ h3 {
   }
 
   .md\:focus\:placeholder-darkBlueGrey:focus::-webkit-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .md\:focus\:placeholder-darkBlueGrey:focus::-moz-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .md\:focus\:placeholder-darkBlueGrey:focus:-ms-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .md\:focus\:placeholder-darkBlueGrey:focus::-ms-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .md\:focus\:placeholder-darkBlueGrey:focus::placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .md\:focus\:placeholder-hoverDarkBlueGrey:focus::-webkit-input-placeholder{
@@ -36504,7 +36768,7 @@ h3 {
   }
 
   .md\:text-darkBlueGrey{
-    color: #454d66;
+    color: #282651;;
   }
 
   .md\:text-hoverDarkBlueGrey{
@@ -36912,7 +37176,7 @@ h3 {
   }
 
   .md\:hover\:text-darkBlueGrey:hover{
-    color: #454d66;
+    color: #282651;;
   }
 
   .md\:hover\:text-hoverDarkBlueGrey:hover{
@@ -37320,7 +37584,7 @@ h3 {
   }
 
   .md\:focus\:text-darkBlueGrey:focus{
-    color: #454d66;
+    color: #282651;;
   }
 
   .md\:focus\:text-hoverDarkBlueGrey:focus{
@@ -38463,7 +38727,7 @@ h3 {
   }
 
   .lg\:bg-darkBlueGrey{
-    background-color: #454d66;
+    background-color: #282651;;
   }
 
   .lg\:bg-hoverDarkBlueGrey{
@@ -38871,7 +39135,7 @@ h3 {
   }
 
   .lg\:hover\:bg-darkBlueGrey:hover{
-    background-color: #454d66;
+    background-color: #282651;;
   }
 
   .lg\:hover\:bg-hoverDarkBlueGrey:hover{
@@ -39279,7 +39543,7 @@ h3 {
   }
 
   .lg\:focus\:bg-darkBlueGrey:focus{
-    background-color: #454d66;
+    background-color: #282651;;
   }
 
   .lg\:focus\:bg-hoverDarkBlueGrey:focus{
@@ -39767,7 +40031,7 @@ h3 {
   }
 
   .lg\:border-darkBlueGrey{
-    border-color: #454d66;
+    border-color: #282651;;
   }
 
   .lg\:border-hoverDarkBlueGrey{
@@ -40175,7 +40439,7 @@ h3 {
   }
 
   .lg\:hover\:border-darkBlueGrey:hover{
-    border-color: #454d66;
+    border-color: #282651;;
   }
 
   .lg\:hover\:border-hoverDarkBlueGrey:hover{
@@ -40583,7 +40847,7 @@ h3 {
   }
 
   .lg\:focus\:border-darkBlueGrey:focus{
-    border-color: #454d66;
+    border-color: #282651;;
   }
 
   .lg\:focus\:border-hoverDarkBlueGrey:focus{
@@ -46003,23 +46267,23 @@ h3 {
   }
 
   .lg\:placeholder-darkBlueGrey::-webkit-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .lg\:placeholder-darkBlueGrey::-moz-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .lg\:placeholder-darkBlueGrey:-ms-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .lg\:placeholder-darkBlueGrey::-ms-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .lg\:placeholder-darkBlueGrey::placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .lg\:placeholder-hoverDarkBlueGrey::-webkit-input-placeholder{
@@ -48043,23 +48307,23 @@ h3 {
   }
 
   .lg\:focus\:placeholder-darkBlueGrey:focus::-webkit-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .lg\:focus\:placeholder-darkBlueGrey:focus::-moz-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .lg\:focus\:placeholder-darkBlueGrey:focus:-ms-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .lg\:focus\:placeholder-darkBlueGrey:focus::-ms-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .lg\:focus\:placeholder-darkBlueGrey:focus::placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .lg\:focus\:placeholder-hoverDarkBlueGrey:focus::-webkit-input-placeholder{
@@ -48834,7 +49098,7 @@ h3 {
   }
 
   .lg\:text-darkBlueGrey{
-    color: #454d66;
+    color: #282651;;
   }
 
   .lg\:text-hoverDarkBlueGrey{
@@ -49242,7 +49506,7 @@ h3 {
   }
 
   .lg\:hover\:text-darkBlueGrey:hover{
-    color: #454d66;
+    color: #282651;;
   }
 
   .lg\:hover\:text-hoverDarkBlueGrey:hover{
@@ -49650,7 +49914,7 @@ h3 {
   }
 
   .lg\:focus\:text-darkBlueGrey:focus{
-    color: #454d66;
+    color: #282651;;
   }
 
   .lg\:focus\:text-hoverDarkBlueGrey:focus{
@@ -50793,7 +51057,7 @@ h3 {
   }
 
   .xl\:bg-darkBlueGrey{
-    background-color: #454d66;
+    background-color: #282651;;
   }
 
   .xl\:bg-hoverDarkBlueGrey{
@@ -51201,7 +51465,7 @@ h3 {
   }
 
   .xl\:hover\:bg-darkBlueGrey:hover{
-    background-color: #454d66;
+    background-color: #282651;;
   }
 
   .xl\:hover\:bg-hoverDarkBlueGrey:hover{
@@ -51609,7 +51873,7 @@ h3 {
   }
 
   .xl\:focus\:bg-darkBlueGrey:focus{
-    background-color: #454d66;
+    background-color: #282651;;
   }
 
   .xl\:focus\:bg-hoverDarkBlueGrey:focus{
@@ -52097,7 +52361,7 @@ h3 {
   }
 
   .xl\:border-darkBlueGrey{
-    border-color: #454d66;
+    border-color: #282651;;
   }
 
   .xl\:border-hoverDarkBlueGrey{
@@ -52505,7 +52769,7 @@ h3 {
   }
 
   .xl\:hover\:border-darkBlueGrey:hover{
-    border-color: #454d66;
+    border-color: #282651;;
   }
 
   .xl\:hover\:border-hoverDarkBlueGrey:hover{
@@ -52913,7 +53177,7 @@ h3 {
   }
 
   .xl\:focus\:border-darkBlueGrey:focus{
-    border-color: #454d66;
+    border-color: #282651;;
   }
 
   .xl\:focus\:border-hoverDarkBlueGrey:focus{
@@ -58333,23 +58597,23 @@ h3 {
   }
 
   .xl\:placeholder-darkBlueGrey::-webkit-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .xl\:placeholder-darkBlueGrey::-moz-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .xl\:placeholder-darkBlueGrey:-ms-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .xl\:placeholder-darkBlueGrey::-ms-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .xl\:placeholder-darkBlueGrey::placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .xl\:placeholder-hoverDarkBlueGrey::-webkit-input-placeholder{
@@ -60373,23 +60637,23 @@ h3 {
   }
 
   .xl\:focus\:placeholder-darkBlueGrey:focus::-webkit-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .xl\:focus\:placeholder-darkBlueGrey:focus::-moz-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .xl\:focus\:placeholder-darkBlueGrey:focus:-ms-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .xl\:focus\:placeholder-darkBlueGrey:focus::-ms-input-placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .xl\:focus\:placeholder-darkBlueGrey:focus::placeholder{
-    color: #454d66;
+    color: #282651;;
   }
 
   .xl\:focus\:placeholder-hoverDarkBlueGrey:focus::-webkit-input-placeholder{
@@ -61164,7 +61428,7 @@ h3 {
   }
 
   .xl\:text-darkBlueGrey{
-    color: #454d66;
+    color: #282651;;
   }
 
   .xl\:text-hoverDarkBlueGrey{
@@ -61572,7 +61836,7 @@ h3 {
   }
 
   .xl\:hover\:text-darkBlueGrey:hover{
-    color: #454d66;
+    color: #282651;;
   }
 
   .xl\:hover\:text-hoverDarkBlueGrey:hover{
@@ -61980,7 +62244,7 @@ h3 {
   }
 
   .xl\:focus\:text-darkBlueGrey:focus{
-    color: #454d66;
+    color: #282651;;
   }
 
   .xl\:focus\:text-hoverDarkBlueGrey:focus{
