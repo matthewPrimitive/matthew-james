@@ -14,7 +14,7 @@
         <title>{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}</title>
 
         <link rel="home" href="{{ $page->baseUrl }}">
-        <link rel="icon" href="/assets/img/Untitled-1.svg">
+        <link rel="icon" href="/assets/img/markable-logo.svg">
 
 
         @stack('meta')
@@ -44,7 +44,7 @@
                 <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                     <div class="flex items-center justify-between w-full">
                         <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                            <img class="h-8 md:h-10 mr-3 rounded-full" src="/assets/img/Untitled-1.svg" alt="{{ $page->siteName }} logo" />
+                            <img class="h-8 md:h-16 mr-3 rounded-full" src="/assets/img/markable-logo.svg" alt="{{ $page->siteName }} logo" />
 
                             <h2 class="text-lg md:text-2xl text-darkBlueGrey font-semibold transition hover:text-blue-600 my-0">Markable</h2>
                         </a>
