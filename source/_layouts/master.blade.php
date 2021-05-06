@@ -14,7 +14,8 @@
         <title>{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}</title>
 
         <link rel="home" href="{{ $page->baseUrl }}">
-        <link rel="icon" href="/favicon.ico">
+        <link rel="icon" href="/assets/img/Untitled-1.svg">
+
 
         @stack('meta')
 
@@ -39,22 +40,22 @@
 
     <body>
         <div id="app" class="flex flex-col justify-between min-h-screen bg-white text-gray-800 leading-normal font-sans">
-            {{-- <header class="flex items-center shadow bg-white border-b h-24 py-4 fixed w-full" role="banner">
+            <header class="flex items-center shadow bg-white border-b h-24 py-4 w-full absolute z-10" role="banner">
                 <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                     <div class="flex items-center justify-between w-full">
                         <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                            <img class="h-8 md:h-10 mr-3 rounded-full" src="/assets/img/matthew-james.jpeg" alt="{{ $page->siteName }} logo" />
+                            <img class="h-8 md:h-10 mr-3 rounded-full" src="/assets/img/Untitled-1.svg" alt="{{ $page->siteName }} logo" />
 
-                            <h2 class="text-lg md:text-2xl text-darkBlueGrey font-semibold transition hover:text-blue-600 my-0">Matthew James</h2>
+                            <h2 class="text-lg md:text-2xl text-darkBlueGrey font-semibold transition hover:text-blue-600 my-0">Markable</h2>
                         </a>
 
                         <div class="nav-links">
-                            <a class="text-lg md:text-2xl text-darkBlueGrey font-semibold transition hover:text-blue-600 my-0 mx-4" href="#about">About</a>
+                            <a class="text-lg md:text-2xl text-darkBlueGrey font-semibold transition hover:text-blue-600 my-0 mx-4" href="#origin">About</a>
                             <a class="text-lg md:text-2xl text-darkBlueGrey font-semibold transition hover:text-blue-600 my-0 mx-4" href="#contact-us">Contact Me</a>
                         </div>
                     </div>
                 </div>
-            </header> --}}
+            </header>
 
             @include('_nav.menu-responsive')
 

@@ -26,7 +26,7 @@
                     <p class="origin__sub">MARKABLE</p>
                     <h2 class="origin__title">What We Do</h2>
                     <p class="origin__content">
-                        Markable creates custom web design and development. We Specialize in creating custom websites to our clients needs.
+                        Markable creates custom websites with personal web design and development. We Specialize in creating custom websites for our clients needs.
                     </p>
                 </div>
                 <div class="origin__tabbed">

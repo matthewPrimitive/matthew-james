@@ -5,7 +5,7 @@
         <div v-if="show" class="hero w-4/5 mx-auto flex flex-col justify-center h-full">
             <h1 class="text-white typing" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">Markable</h1>
             <transition name="view">
-                <div class="pb-4 flex sm:items-center flex-col sm:flex-row text-center">
+                <div class="pb-4 flex sm:items-center flex-col sm:flex-row">
                     <h3 data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000" class="text-white typing">Web Development</h3>
 
                     <h3 data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000" class="text-white mx-3 sm:block hidden">|</h3>
