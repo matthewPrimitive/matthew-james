@@ -1,7 +1,7 @@
 
 
 <template>
-    <div class="hero-container pt-56 pb-32 flex flex-col justify-center items-center w-full h-screen" style="background-image: url(/assets/img/home-hero.png)">
+    <div class="hero-container pt-56 pb-32 flex flex-col justify-center items-center w-full h-screen" style="background-image: url(/assets/img/rural-landscape.jpg)">
         <div v-if="show" class="hero w-4/5 mx-auto flex flex-col justify-center h-full">
             <h1 class="text-white typing" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">Markable</h1>
             <transition name="view">

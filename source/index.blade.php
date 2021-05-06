@@ -35,10 +35,10 @@
                         <button class="origin__head__tab js-origin__head__tab" data-item="second">Client Assisting</button>
                     </div>
                     <div class="origin__tab js-origin__tab active" id="first">
-                        We create custom websites for our clients needs. If you are in need for just a simple one page website or are looking for something a little bit bigger to help drive in customers for your busniness then Markable is for you.
+                        <p>We create custom websites for our clients needs. If you are in need for just a simple one page website or are looking for something a little bit bigger to help drive in customers for your busniness then Markable is for you.</p>
                     </div>
                     <div class="origin__tab js-origin__tab" id="second">
-                        With technology changing everyday it can be hard to keep up. Markable is here to help guide you down the road.
+                        <p>With technology changing everyday it can be hard to keep up. Markable is here to help guide you down the road.</p>
                     </div>
                 </div>
             </div>

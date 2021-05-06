@@ -15,23 +15,32 @@
 @tailwind utilities;
 
 h1 {
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Rubik', sans-serif;
     margin: 0;
 }
 
 h2 {
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Rubik', sans-serif;
     margin: 0;
 }
 
 h3 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+button {
+        font-family: 'Roboto', sans-serif;
 }
 
 .social-icon img {

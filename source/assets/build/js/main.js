@@ -3263,7 +3263,9 @@ var render = function() {
     {
       staticClass:
         "hero-container pt-56 pb-32 flex flex-col justify-center items-center w-full h-screen",
-      staticStyle: { "background-image": "url(/assets/img/home-hero.png)" }
+      staticStyle: {
+        "background-image": "url(/assets/img/rural-landscape.jpg)"
+      }
     },
     [
       _vm.show
