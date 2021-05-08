@@ -1,17 +1,31 @@
 
 
 <template>
-    <div class="hero-container pt-56 pb-32 flex flex-col justify-center items-center w-full h-screen" style="background-image: url(/assets/img/rural-landscape.jpg)">
-        <div v-if="show" class="hero w-4/5 mx-auto flex flex-col justify-center h-full">
-            <h1 class="text-white typing" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">Markable</h1>
-            <transition name="view">
-                <div class="pb-4 flex sm:items-center flex-col sm:flex-row">
-                    <h3 data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000" class="text-white typing">Web Development</h3>
+    <div class="hero-container pt-56 pb-32 flex md:flex-row flex-col items-center justify-between w-9/10 mx-auto">
+        <div v-if="show" class="hero flex flex-col justify-center h-full">
+            <div class="flex sm:items-center flex-col sm:flex-row">
+                <h3 data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000" class="text-mainPurple">Web Development</h3>
 
-                    <h3 data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000" class="text-white mx-3 sm:block hidden">|</h3>
-                    <h3 data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000" class="text-white">Client Assisting</h3>
-                </div>
-            </transition>
+                <h3 data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000" class="text-mainPurple mx-3 sm:block hidden">|</h3>
+                <h3 data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000" class="text-mainPurple">Client Assisting</h3>
+            </div>
+            <h1 class="text-mainPurple typing" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">Markable</h1>
+            <p class="text-mainPurple" data-aos="fade-right" data-aos-delay="350" data-aos-duration="1000">Creating custom websites for anything your business does.</p>
+        </div>
+        <div class="w-1/2 relative mt-20 md:mt-0">
+            <div class="w-64 h-64 mx-auto relative z-10">
+                <img src="/assets/img/markable-logo.svg" class="w-full h-full rounded-full">
+            </div>
+            <div class="w-24 h-24 bg-mainPurple rounded-full mx-auto circle-one"></div>
+            <div class="w-40 h-40 bg-mainPurple rounded-full mx-auto absolute circle-two"></div>
+            <div class="w-24 h-24 bg-mainPurple rounded-full mx-auto circle-three md:block hidden"></div>
+            <div class="w-40 h-40 bg-mainPurple rounded-full mx-auto absolute circle-five"></div>
+
+
+            <!-- <div class="w-20 absolute -left-1 top-0 rounded bg-treeGreen position-person">
+                <img class="object-cover object-center w-full h-full" src="/assets/img/matthew-nobg.png" alt="">
+                <p class="absolute rounded-full w-6/5 text-center text-white text-sm mt-4 mx-~10 bg-treeGreen">Founder</p>
+            </div> -->
         </div>
 
     </div>
@@ -44,94 +58,64 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .hero-container {
     position: relative;
-}
-
-.tree-one, .tree-two {
-    position: absolute;
-    width: 150px;
-    left: 5px;
-    bottom: 0;
-    & svg {
-        transform-origin: bottom;
-        & .tree-branch {
-            fill: #aa8976;
-        }
-        & .tree-leaves {
-            fill: #58b368;
-        }
+    h1 {
+        font-size: 76px;
+    }
+    h3 {
+        font-size: 18px;
     }
 }
 
-.tree-two {
-    right: 0px;
-}
-.border-grow {
-    height: 5px;
-    width: 100%;
-    background-color: #58b368;
+
+.circle-one {
+    transform: translate(450px, -150px);
+    background-color: #4990c4;
     position: absolute;
-    display: flex;
-    justify-content: center;
-    bottom: 0;
+    animation: MoveUpDown 5s linear infinite;
+}
+.circle-two {
+    transform: translate(70px, -170px);
+    animation: MoveUpDown 5s linear infinite;
+}
+.circle-three {
+    transform: translate(150px, -220px);
+    background-color: #4990c4;
+    animation: MoveUpDownReverse 5s linear infinite;
+    position: absolute;
+}
+.circle-five {
+    transform: translate(540px, -340px);
+    animation: MoveUpDown 5s linear infinite;
 }
 
-.view-leave-active {
-    transition: opacity 0.5s ease-in-out, transform 1.2s ease;
+
+.object {
+  animation: MoveUpDownReverse 5s linear infinite;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
-.view-enter-active {
-    transition: opacity 0.5s ease-in-out, transform 1.2s ease;
-    transition-delay: 0.5s;
+@keyframes MoveUpDown {
+  0%, 100% {
+    top: 100px;
+    left: 0px;
+  }
+  50% {
+    top: 180px;
+    left: 30px;
+  }
 }
-
-.view-enter, .view-leave-to {
-    opacity: 0;
-    transform: translate(0px, -40px);
+@keyframes MoveUpDownReverse {
+  0%, 100% {
+    top: 200px;
+    right: 30px;
+  }
+  50% {
+    top: 100px;
+  }
 }
-
-.view-enter-to, .view-leave {
-    opacity: 1;
-    transform: translate(0px, 0px);
-}
-
-// grow
-.grow-leave-active {
-    transition: 2s ease;
-}
-
-.grow-enter-active {
-    transition: 2s ease;
-    transition-delay: 0.5s;
-}
-
-.grow-enter, .grow-leave-to {
-    width: 0%;
-}
-
-.grow-enter-to, .grow-leave {
-    width: 100%;
-}
-
-// tree-grow
-.tree-grow-leave-active {
-    transition: 2s ease;
-}
-
-.tree-grow-enter-active {
-    transition: 2s ease;
-    transition-delay: 0.5s;
-}
-
-.tree-grow-enter, .tree-grow-leave-to {
-    transform: scale(0);
-    transform-origin: bottom;
-}
-
-.tree-grow-enter-to, .tree-grow-leave {
-    transform: scale(1);
-    transform-origin: bottom;
-}
-
 </style>

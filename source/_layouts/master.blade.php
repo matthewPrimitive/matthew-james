@@ -41,10 +41,10 @@
     <body>
         <div id="app" class="flex flex-col justify-between min-h-screen bg-white text-gray-800 leading-normal">
             <header class="flex items-center shadow bg-white border-b h-24 py-4 w-full absolute z-10" role="banner">
-                <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
+                <div class="container flex items-center max-w-9/10 mx-auto">
                     <div class="flex items-center justify-between w-full">
                         <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                         <img class="h-8 md:h-16 mr-3 rounded-full" src="/assets/img/markable-logo.svg" alt="{{ $page->siteName }} logo" />
+                            <img class="h-8 md:h-16 mr-3 rounded-full" src="/assets/img/markable-logo.svg" alt="{{ $page->siteName }} logo" />
 
                             <h2 class="text-lg md:text-2xl text-darkBlueGrey font-semibold transition hover:text-blue-600 my-0">Markable</h2>
                         </a>

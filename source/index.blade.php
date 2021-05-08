@@ -4,20 +4,20 @@
 
 <home-hero></home-hero>
 
-<div class="cta" id="cta">
+{{-- <div class="cta" id="cta">
     <div class="cta__content" data-aos="fade-right" data-aos-delay="0" data-aos-duration="1000">
         <p>Interested in learning more?</p>
     </div>
     <div class="cta__btn" data-aos="fade-left" data-aos-delay="0" data-aos-duration="1000">
         <a href="#contact-us">Contact Us Today!</a>
     </div>
-</div>
+</div> --}}
 
 <section class="origin" id="origin">
     <div class="origin__inner wrapper come-in">
         <div class="origin__col" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
             <div class="origin__image">
-                <img loading="lazy" src="/assets/img/home-hero.jpeg" alt="background jarallax image" />
+                <img loading="lazy" src="/assets/img/home-hero.jpeg" alt="background" />
             </div>
         </div>
         <div class="origin__col" data-aos="fade-down" data-aos-delay="0" data-aos-duration="1000">

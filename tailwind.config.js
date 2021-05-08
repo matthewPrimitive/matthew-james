@@ -11,7 +11,9 @@ module.exports = {
         mainOrange: '#f96d15',
         cream: '#f4eec7',
         limeGreen: '#ccda46',
-        darkGreen: '#697c37'
+        darkGreen: '#697c37',
+
+        mainPurple: '#282651',
       },
       fontFamily: {
         sans: [
@@ -28,12 +30,16 @@ module.exports = {
       maxWidth: {
         none: 'none',
         '7xl': '80rem',
-        '8xl': '88rem'
+        '8xl': '88rem',
+        '9/10': '90%',
       },
       spacing: {
         '7': '1.75rem',
         '9': '2.25rem',
-        '1/2-vh': '50vh'
+        '1/2-vh': '50vh',
+        '9/10': '90%',
+        '6/5': '120%',
+        '~10': '-10%',
       },
       boxShadow: {
         'lg': '0 -1px 27px 0 rgba(0, 0, 0, 0.04), 0 4px 15px 0 rgba(0, 0, 0, 0.08)',

@@ -1760,6 +1760,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_typed_js__WEBPACK_IMPORTED_MODULE_1__["default"]);
@@ -1997,7 +2011,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".hero-container[data-v-44cb3fe2] {\n  position: relative;\n}\n.tree-one[data-v-44cb3fe2], .tree-two[data-v-44cb3fe2] {\n  position: absolute;\n  width: 150px;\n  left: 5px;\n  bottom: 0;\n}\n.tree-one svg[data-v-44cb3fe2], .tree-two svg[data-v-44cb3fe2] {\n  transform-origin: bottom;\n}\n.tree-one svg .tree-branch[data-v-44cb3fe2], .tree-two svg .tree-branch[data-v-44cb3fe2] {\n  fill: #aa8976;\n}\n.tree-one svg .tree-leaves[data-v-44cb3fe2], .tree-two svg .tree-leaves[data-v-44cb3fe2] {\n  fill: #58b368;\n}\n.tree-two[data-v-44cb3fe2] {\n  right: 0px;\n}\n.border-grow[data-v-44cb3fe2] {\n  height: 5px;\n  width: 100%;\n  background-color: #58b368;\n  position: absolute;\n  display: flex;\n  justify-content: center;\n  bottom: 0;\n}\n.view-leave-active[data-v-44cb3fe2] {\n  transition: opacity 0.5s ease-in-out, transform 1.2s ease;\n}\n.view-enter-active[data-v-44cb3fe2] {\n  transition: opacity 0.5s ease-in-out, transform 1.2s ease;\n  transition-delay: 0.5s;\n}\n.view-enter[data-v-44cb3fe2], .view-leave-to[data-v-44cb3fe2] {\n  opacity: 0;\n  transform: translate(0px, -40px);\n}\n.view-enter-to[data-v-44cb3fe2], .view-leave[data-v-44cb3fe2] {\n  opacity: 1;\n  transform: translate(0px, 0px);\n}\n.grow-leave-active[data-v-44cb3fe2] {\n  transition: 2s ease;\n}\n.grow-enter-active[data-v-44cb3fe2] {\n  transition: 2s ease;\n  transition-delay: 0.5s;\n}\n.grow-enter[data-v-44cb3fe2], .grow-leave-to[data-v-44cb3fe2] {\n  width: 0%;\n}\n.grow-enter-to[data-v-44cb3fe2], .grow-leave[data-v-44cb3fe2] {\n  width: 100%;\n}\n.tree-grow-leave-active[data-v-44cb3fe2] {\n  transition: 2s ease;\n}\n.tree-grow-enter-active[data-v-44cb3fe2] {\n  transition: 2s ease;\n  transition-delay: 0.5s;\n}\n.tree-grow-enter[data-v-44cb3fe2], .tree-grow-leave-to[data-v-44cb3fe2] {\n  transform: scale(0);\n  transform-origin: bottom;\n}\n.tree-grow-enter-to[data-v-44cb3fe2], .tree-grow-leave[data-v-44cb3fe2] {\n  transform: scale(1);\n  transform-origin: bottom;\n}", ""]);
+exports.push([module.i, ".hero-container[data-v-44cb3fe2] {\n  position: relative;\n}\n.hero-container h1[data-v-44cb3fe2] {\n  font-size: 76px;\n}\n.hero-container h3[data-v-44cb3fe2] {\n  font-size: 18px;\n}\n.circle-one[data-v-44cb3fe2] {\n  transform: translate(450px, -150px);\n  background-color: #4990c4;\n  position: absolute;\n  -webkit-animation: MoveUpDown-data-v-44cb3fe2 5s linear infinite;\n          animation: MoveUpDown-data-v-44cb3fe2 5s linear infinite;\n}\n.circle-two[data-v-44cb3fe2] {\n  transform: translate(70px, -170px);\n  -webkit-animation: MoveUpDown-data-v-44cb3fe2 5s linear infinite;\n          animation: MoveUpDown-data-v-44cb3fe2 5s linear infinite;\n}\n.circle-three[data-v-44cb3fe2] {\n  transform: translate(150px, -220px);\n  background-color: #4990c4;\n  -webkit-animation: MoveUpDownReverse-data-v-44cb3fe2 5s linear infinite;\n          animation: MoveUpDownReverse-data-v-44cb3fe2 5s linear infinite;\n  position: absolute;\n}\n.circle-five[data-v-44cb3fe2] {\n  transform: translate(540px, -340px);\n  -webkit-animation: MoveUpDown-data-v-44cb3fe2 5s linear infinite;\n          animation: MoveUpDown-data-v-44cb3fe2 5s linear infinite;\n}\n.object[data-v-44cb3fe2] {\n  -webkit-animation: MoveUpDownReverse-data-v-44cb3fe2 5s linear infinite;\n          animation: MoveUpDownReverse-data-v-44cb3fe2 5s linear infinite;\n  position: absolute;\n  left: 0;\n  bottom: 0;\n}\n@-webkit-keyframes MoveUpDown-data-v-44cb3fe2 {\n0%, 100% {\n    top: 100px;\n    left: 0px;\n}\n50% {\n    top: 180px;\n    left: 30px;\n}\n}\n@keyframes MoveUpDown-data-v-44cb3fe2 {\n0%, 100% {\n    top: 100px;\n    left: 0px;\n}\n50% {\n    top: 180px;\n    left: 30px;\n}\n}\n@-webkit-keyframes MoveUpDownReverse-data-v-44cb3fe2 {\n0%, 100% {\n    top: 200px;\n    right: 30px;\n}\n50% {\n    top: 100px;\n}\n}\n@keyframes MoveUpDownReverse-data-v-44cb3fe2 {\n0%, 100% {\n    top: 200px;\n    right: 30px;\n}\n50% {\n    top: 100px;\n}\n}", ""]);
 
 // exports
 
@@ -3262,24 +3276,20 @@ var render = function() {
     "div",
     {
       staticClass:
-        "hero-container pt-56 pb-32 flex flex-col justify-center items-center w-full h-screen",
-      staticStyle: {
-        "background-image": "url(/assets/img/rural-landscape.jpg)"
-      }
+        "hero-container pt-56 pb-32 flex md:flex-row flex-col items-center justify-between w-9/10 mx-auto"
     },
     [
       _vm.show
         ? _c(
             "div",
-            {
-              staticClass:
-                "hero w-4/5 mx-auto flex flex-col justify-center h-full"
-            },
+            { staticClass: "hero flex flex-col justify-center h-full" },
             [
+              _vm._m(0),
+              _vm._v(" "),
               _c(
                 "h1",
                 {
-                  staticClass: "text-white typing",
+                  staticClass: "text-mainPurple typing",
                   attrs: {
                     "data-aos": "fade-right",
                     "data-aos-delay": "300",
@@ -3289,63 +3299,113 @@ var render = function() {
                 [_vm._v("Markable")]
               ),
               _vm._v(" "),
-              _c("transition", { attrs: { name: "view" } }, [
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "pb-4 flex sm:items-center flex-col sm:flex-row"
-                  },
-                  [
-                    _c(
-                      "h3",
-                      {
-                        staticClass: "text-white typing",
-                        attrs: {
-                          "data-aos": "fade-right",
-                          "data-aos-delay": "500",
-                          "data-aos-duration": "1000"
-                        }
-                      },
-                      [_vm._v("Web Development")]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "h3",
-                      {
-                        staticClass: "text-white mx-3 sm:block hidden",
-                        attrs: {
-                          "data-aos": "fade-down",
-                          "data-aos-delay": "500",
-                          "data-aos-duration": "1000"
-                        }
-                      },
-                      [_vm._v("|")]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "h3",
-                      {
-                        staticClass: "text-white",
-                        attrs: {
-                          "data-aos": "fade-left",
-                          "data-aos-delay": "500",
-                          "data-aos-duration": "1000"
-                        }
-                      },
-                      [_vm._v("Client Assisting")]
-                    )
-                  ]
-                )
-              ])
-            ],
-            1
+              _c(
+                "p",
+                {
+                  staticClass: "text-mainPurple",
+                  attrs: {
+                    "data-aos": "fade-right",
+                    "data-aos-delay": "350",
+                    "data-aos-duration": "1000"
+                  }
+                },
+                [
+                  _vm._v(
+                    "Creating custom websites for anything your business does."
+                  )
+                ]
+              )
+            ]
           )
-        : _vm._e()
+        : _vm._e(),
+      _vm._v(" "),
+      _vm._m(1)
     ]
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "flex sm:items-center flex-col sm:flex-row" },
+      [
+        _c(
+          "h3",
+          {
+            staticClass: "text-mainPurple",
+            attrs: {
+              "data-aos": "fade-right",
+              "data-aos-delay": "500",
+              "data-aos-duration": "1000"
+            }
+          },
+          [_vm._v("Web Development")]
+        ),
+        _vm._v(" "),
+        _c(
+          "h3",
+          {
+            staticClass: "text-mainPurple mx-3 sm:block hidden",
+            attrs: {
+              "data-aos": "fade-down",
+              "data-aos-delay": "500",
+              "data-aos-duration": "1000"
+            }
+          },
+          [_vm._v("|")]
+        ),
+        _vm._v(" "),
+        _c(
+          "h3",
+          {
+            staticClass: "text-mainPurple",
+            attrs: {
+              "data-aos": "fade-left",
+              "data-aos-delay": "500",
+              "data-aos-duration": "1000"
+            }
+          },
+          [_vm._v("Client Assisting")]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "w-1/2 relative mt-20 md:mt-0" }, [
+      _c("div", { staticClass: "w-64 h-64 mx-auto relative z-10" }, [
+        _c("img", {
+          staticClass: "w-full h-full rounded-full",
+          attrs: { src: "/assets/img/markable-logo.svg" }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", {
+        staticClass: "w-24 h-24 bg-mainPurple rounded-full mx-auto circle-one"
+      }),
+      _vm._v(" "),
+      _c("div", {
+        staticClass:
+          "w-40 h-40 bg-mainPurple rounded-full mx-auto absolute circle-two"
+      }),
+      _vm._v(" "),
+      _c("div", {
+        staticClass:
+          "w-24 h-24 bg-mainPurple rounded-full mx-auto circle-three md:block hidden"
+      }),
+      _vm._v(" "),
+      _c("div", {
+        staticClass:
+          "w-40 h-40 bg-mainPurple rounded-full mx-auto absolute circle-five"
+      })
+    ])
+  }
+]
 render._withStripped = true
 
 
