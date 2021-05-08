@@ -16,9 +16,9 @@
             <div class="w-64 h-64 mx-auto relative z-10 logo-right">
                 <img src="/assets/img/markable-logo.svg" class="w-full h-full rounded-full">
             </div>
-            <div class="w-24 h-24 bg-mainPurple rounded-full mx-auto circle-one md:block hidden"></div>
-            <div class="w-40 h-40 bg-mainPurple rounded-full mx-auto absolute circle-two"></div>
-            <div class="w-24 h-24 bg-mainPurple rounded-full mx-auto circle-three md:block hidden"></div>
+            <div class="w-24 h-24 bg-mainBlue rounded-full mx-auto circle-one md:block hidden"></div>
+            <div class="w-40 h-40 bg-mainBlue md:bg-mainPurple rounded-full mx-auto absolute circle-two"></div>
+            <div class="w-24 h-24 bg-mainBlue rounded-full mx-auto circle-three md:block hidden"></div>
             <div class="w-40 h-40 bg-mainPurple rounded-full mx-auto absolute circle-five md:block hidden"></div>
 
         </div>
@@ -73,7 +73,6 @@ export default {
 }
 .circle-one {
     transform: translate(450px, -150px);
-    background-color: #4990c4;
     position: absolute;
     animation: MoveUpDown 6s linear infinite;
 }
@@ -83,7 +82,6 @@ export default {
 }
 .circle-three {
     transform: translate(150px, -220px);
-    background-color: #4990c4;
     animation: MoveUpDownReverse 5s linear infinite;
     position: absolute;
 }
