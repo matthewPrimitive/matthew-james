@@ -13,7 +13,7 @@
             <p class="text-mainPurple" data-aos="fade-right" data-aos-delay="350" data-aos-duration="1000">Creating custom websites for anything your business does.</p>
         </div>
         <div class="w-1/2 relative mt-20 md:mt-0">
-            <div class="w-64 h-64 mx-auto relative z-10">
+            <div class="w-64 h-64 mx-auto relative z-10 logo-right">
                 <img src="/assets/img/markable-logo.svg" class="w-full h-full rounded-full">
             </div>
             <div class="w-24 h-24 bg-mainPurple rounded-full mx-auto circle-one"></div>
@@ -69,7 +69,13 @@ export default {
     }
 }
 
-
+.logo-right {
+    transform: rotate(0deg);
+    transition: 10s ease;
+    &:hover {
+        transform: rotate(3600deg);
+    }
+}
 .circle-one {
     transform: translate(450px, -150px);
     background-color: #4990c4;
