@@ -11828,6 +11828,26 @@ pre code {
   stroke: currentColor;
 }
 
+.stroke-white{
+  stroke: white;
+}
+
+.stroke-mainPurple{
+  stroke: #282651;
+}
+
+.group:hover .group-hover\:stroke-current{
+  stroke: currentColor;
+}
+
+.group:hover .group-hover\:stroke-white{
+  stroke: white;
+}
+
+.group:hover .group-hover\:stroke-mainPurple{
+  stroke: #282651;
+}
+
 .table-auto{
   table-layout: auto;
 }
@@ -24926,10 +24946,6 @@ button {
     fill: currentColor;
   }
 
-  .sm\:stroke-current{
-    stroke: currentColor;
-  }
-
   .sm\:table-auto{
     table-layout: auto;
   }
@@ -37716,10 +37732,6 @@ button {
 
   .md\:fill-current{
     fill: currentColor;
-  }
-
-  .md\:stroke-current{
-    stroke: currentColor;
   }
 
   .md\:table-auto{
@@ -50510,10 +50522,6 @@ button {
     fill: currentColor;
   }
 
-  .lg\:stroke-current{
-    stroke: currentColor;
-  }
-
   .lg\:table-auto{
     table-layout: auto;
   }
@@ -63300,10 +63308,6 @@ button {
 
   .xl\:fill-current{
     fill: currentColor;
-  }
-
-  .xl\:stroke-current{
-    stroke: currentColor;
   }
 
   .xl\:table-auto{

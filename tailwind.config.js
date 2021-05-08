@@ -44,6 +44,11 @@ module.exports = {
       },
       boxShadow: {
         'lg': '0 -1px 27px 0 rgba(0, 0, 0, 0.04), 0 4px 15px 0 rgba(0, 0, 0, 0.08)',
+      },
+      stroke: {
+        current: 'currentColor',
+        white: 'white',
+        mainPurple: '#282651',
       }
     },
     fontSize: {
@@ -62,7 +67,8 @@ module.exports = {
   variants: {
     borderRadius: ['responsive', 'focus'],
     borderWidth: ['responsive', 'active', 'focus'],
-    width: ['responsive', 'focus']
+    width: ['responsive', 'focus'],
+    stroke: ['group-hover']
   },
   plugins: [
     function({ addUtilities }) {

@@ -91,13 +91,6 @@ export default {
 }
 
 
-.object {
-  animation: MoveUpDownReverse 5s linear infinite;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-
 @keyframes MoveUpDown {
   0%, 100% {
     top: 100px;

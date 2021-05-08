@@ -63,14 +63,32 @@
                 @yield('body')
             </main>
 
-            <footer class="bg-white text-sm py-8 bg-darkBlueGrey" role="contentinfo">
-                <div class="w-4/5 mx-auto">
+            <footer class="bg-mainBlue text-sm pb-8" role="contentinfo">
+                <div class="w-9/10 mx-auto flex justify-between items-center">
                     <h4 class="text-white">Markable</h4>
                     {{-- <div class="flex">
                         <a href="https://twitter.com/markmattjames" class="social-icon mr-2" target="_blank"><img class="w-8 transition" src="/assets/img/twitter-5-xl.png" alt=""></a>
                         <a href="https://www.instagram.com/mattmarkjames/" class="social-icon mr-2" target="_blank"><img class="w-8 transition" src="/assets/img/instagram-5-64.png" alt=""></a>
                         <a href="https://www.facebook.com/matthew.james.58760608" class="social-icon mr-2" target="_blank"><img class="w-8 transition" src="/assets/img/facebook-5-64.png" alt=""></a>
                     </div> --}}
+                    <div>
+                        <div class="flex items-center mt-8">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#282651" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                            </svg>
+                            <a href="tel:7856141661" class="text-white ml-4">(785) 614-1661</a>
+                        </div>
+                
+                        <div class="flex items-center mt-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#282651" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <rect x="3" y="5" width="18" height="14" rx="2" />
+                                <polyline points="3 7 12 13 21 7" />
+                            </svg>
+                            <a href="mailto:jamesmmatt@gmail.com" class="text-white ml-4">jamesmmatt@gmail.com</a>
+                        </div>
+                    </div>
                 </div>
             </footer>
         </div>
