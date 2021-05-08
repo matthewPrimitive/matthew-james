@@ -13727,6 +13727,7 @@ pre code {
 
 html {
   overflow-x: hidden;
+  max-width: 100vw;
 }
 
 h1 {
