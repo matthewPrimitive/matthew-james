@@ -14,6 +14,7 @@ module.exports = {
         darkGreen: '#697c37',
 
         mainPurple: '#282651',
+        mainBlue: '#4990c4',
       },
       fontFamily: {
         sans: [

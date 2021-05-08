@@ -21,11 +21,6 @@
             <div class="w-24 h-24 bg-mainPurple rounded-full mx-auto circle-three md:block hidden"></div>
             <div class="w-40 h-40 bg-mainPurple rounded-full mx-auto absolute circle-five md:block hidden"></div>
 
-
-            <!-- <div class="w-20 absolute -left-1 top-0 rounded bg-treeGreen position-person">
-                <img class="object-cover object-center w-full h-full" src="/assets/img/matthew-nobg.png" alt="">
-                <p class="absolute rounded-full w-6/5 text-center text-white text-sm mt-4 mx-~10 bg-treeGreen">Founder</p>
-            </div> -->
         </div>
 
     </div>
@@ -80,11 +75,11 @@ export default {
     transform: translate(450px, -150px);
     background-color: #4990c4;
     position: absolute;
-    animation: MoveUpDown 5s linear infinite;
+    animation: MoveUpDown 6s linear infinite;
 }
 .circle-two {
     transform: translate(70px, -170px);
-    animation: MoveUpDown 5s linear infinite;
+    animation: MoveUpDown 7s linear infinite;
 }
 .circle-three {
     transform: translate(150px, -220px);
@@ -94,7 +89,7 @@ export default {
 }
 .circle-five {
     transform: translate(540px, -340px);
-    animation: MoveUpDown 5s linear infinite;
+    animation: MoveUpDown 6.5s linear infinite;
 }
 
 
