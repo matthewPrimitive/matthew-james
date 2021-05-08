@@ -3382,7 +3382,8 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("div", {
-        staticClass: "w-24 h-24 bg-mainPurple rounded-full mx-auto circle-one"
+        staticClass:
+          "w-24 h-24 bg-mainPurple rounded-full mx-auto circle-one md:block hidden"
       }),
       _vm._v(" "),
       _c("div", {
@@ -3397,7 +3398,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", {
         staticClass:
-          "w-40 h-40 bg-mainPurple rounded-full mx-auto absolute circle-five"
+          "w-40 h-40 bg-mainPurple rounded-full mx-auto absolute circle-five md:block hidden"
       })
     ])
   }

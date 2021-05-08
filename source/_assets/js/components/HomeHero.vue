@@ -16,10 +16,10 @@
             <div class="w-64 h-64 mx-auto relative z-10 logo-right">
                 <img src="/assets/img/markable-logo.svg" class="w-full h-full rounded-full">
             </div>
-            <div class="w-24 h-24 bg-mainPurple rounded-full mx-auto circle-one"></div>
+            <div class="w-24 h-24 bg-mainPurple rounded-full mx-auto circle-one md:block hidden"></div>
             <div class="w-40 h-40 bg-mainPurple rounded-full mx-auto absolute circle-two"></div>
             <div class="w-24 h-24 bg-mainPurple rounded-full mx-auto circle-three md:block hidden"></div>
-            <div class="w-40 h-40 bg-mainPurple rounded-full mx-auto absolute circle-five"></div>
+            <div class="w-40 h-40 bg-mainPurple rounded-full mx-auto absolute circle-five md:block hidden"></div>
 
 
             <!-- <div class="w-20 absolute -left-1 top-0 rounded bg-treeGreen position-person">
