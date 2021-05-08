@@ -46,49 +46,49 @@
     </div>
 </section>
 
-<div id="contact-us" class="w-4/5 mx-auto pb-32 pt-16">
+<div id="contact-us" class="w-9/10 mx-auto pb-32 pt-16">
     <h2 data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="text-darkBlueGrey mx-4">Interested in working with us?</h2>
-    <h4 data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="mx-4">Fill out the form below to reach out!</h4>
+    <h4 data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="mx-4 md:mx-0">Fill out the form below to reach out!</h4>
 
     <form action="https://getform.io/f/0ba3603d-b4ee-4df3-9864-61b42a81631f" method="POST">
         <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="flex flex-wrap">
             <div class="w-full pb-4">
-                <div class="flex flex-col mx-4">
+                <div class="flex flex-col mx-4 md:mx-0">
                     <label for="company_name">Company Name</label>
                     <input class="border-2 border-darkBlueGrey rounded-lg h-12 pl-4" type="text" name="company_name" id="company_name">
                 </div>
             </div>
 
             <div class="w-full pb-4">
-                <div class="flex flex-col mx-4">
+                <div class="flex flex-col mx-4 md:mx-0">
                     <label for="full_name">Full Name</label>
                     <input class="border-2 border-darkBlueGrey rounded-lg h-12 pl-4" type="text" name="full_name" id="full_name">
                 </div>
             </div>
 
             <div class="md:w-1/2 w-full pb-4">
-                <div class="flex flex-col mx-4">
+                <div class="flex flex-col mx-4 md:mx-0">
                     <label for="number">Phone Number</label>
                     <input class="border-2 border-darkBlueGrey rounded-lg h-12 pl-4" type="text" name="number" id="number">
                 </div>
             </div>
 
             <div class="md:w-1/2 w-full pb-4">
-                <div class="flex flex-col mx-4">
+                <div class="flex flex-col mx-4 md:mx-0">
                     <label for="email">Email</label>
                     <input class="border-2 border-darkBlueGrey rounded-lg h-12 pl-4" type="text" name="email" id="email">
                 </div>
             </div>
 
             <div class="w-full pb-4">
-                <div class="flex flex-col mx-4">
+                <div class="flex flex-col mx-4 md:mx-0">
                     <label for="message">Message</label>
                     <textarea class="border-2 border-darkBlueGrey rounded-lg h-48 pl-4 pt-4" name="message" id="message"></textarea>
                 </div>
             </div>
 
             <div class="w-full pb-4">
-                <div class="flex flex-col mx-4 pt-12">
+                <div class="flex flex-col mx-4 md:mx-0 pt-12">
                     <input class="border-2 border-darkBlueGrey bg-darkBlueGrey text-white rounded-sm hover:bg-hoverDarkBlueGrey transition-fast cursor-pointer h-12 pl-4" type="submit" name="submit" id="submit">
                 </div>
             </div>

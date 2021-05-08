@@ -3,10 +3,10 @@
 <template>
     <div class="hero-container pt-56 pb-32 flex md:flex-row flex-col items-center justify-between w-9/10 mx-auto">
         <div v-if="show" class="hero flex flex-col justify-center h-full">
-            <div class="flex sm:items-center flex-col sm:flex-row">
+            <div class="flex sm:items-center">
                 <h3 data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000" class="text-mainPurple">Web Development</h3>
 
-                <h3 data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000" class="text-mainPurple mx-3 sm:block hidden">|</h3>
+                <h3 data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000" class="text-mainPurple mx-3">|</h3>
                 <h3 data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000" class="text-mainPurple">Client Assisting</h3>
             </div>
             <h1 class="text-mainPurple typing" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">Markable</h1>
