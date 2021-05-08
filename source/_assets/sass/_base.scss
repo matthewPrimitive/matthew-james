@@ -50,13 +50,8 @@ h4,
 h5,
 h6 {
     @apply .leading-tight;
-    @apply .mb-4;
-    @apply .mt-8;
     @apply .text-gray-900;
 
-    &:first-child {
-        @apply .mt-0;
-    }
 }
 
 h1 {

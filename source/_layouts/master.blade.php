@@ -64,15 +64,15 @@
             </main>
 
             <footer class="bg-mainBlue text-sm pb-8" role="contentinfo">
-                <div class="w-9/10 mx-auto flex justify-between items-center">
-                    <h4 class="text-white">Markable</h4>
+                <div class="w-9/10 mx-auto flex flex-col sm:flex-row justify-between items-center">
+                    <h4 class="text-white sm:mt-0 mt-4 sm:mb-0 mb-4">Markable</h4>
                     {{-- <div class="flex">
                         <a href="https://twitter.com/markmattjames" class="social-icon mr-2" target="_blank"><img class="w-8 transition" src="/assets/img/twitter-5-xl.png" alt=""></a>
                         <a href="https://www.instagram.com/mattmarkjames/" class="social-icon mr-2" target="_blank"><img class="w-8 transition" src="/assets/img/instagram-5-64.png" alt=""></a>
                         <a href="https://www.facebook.com/matthew.james.58760608" class="social-icon mr-2" target="_blank"><img class="w-8 transition" src="/assets/img/facebook-5-64.png" alt=""></a>
                     </div> --}}
                     <div>
-                        <div class="flex items-center mt-8">
+                        <div class="flex items-center sm:mt-8 mt-0">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#282651" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                 <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
