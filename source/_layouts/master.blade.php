@@ -50,8 +50,8 @@
                         </a>
 
                         <div class="nav-links">
-                            <a class="text-lg md:text-2xl text-darkBlueGrey font-semibold transition hover:text-blue-600 my-0 mx-4" href="#origin">About</a>
-                            <a class="text-lg md:text-2xl text-darkBlueGrey font-semibold transition hover:text-blue-600 my-0 mx-4" href="#contact-us">Contact Us</a>
+                            <a class="text-lg md:text-2xl text-darkBlueGrey font-semibold transition hover:text-blue-600 my-0 md:mx-4 mx-1" href="#origin">About</a>
+                            <a class="text-lg md:text-2xl text-darkBlueGrey font-semibold transition hover:text-blue-600 my-0 md:mx-4 mx-1" href="#contact-us">Contact Us</a>
                         </div>
                     </div>
                 </div>
