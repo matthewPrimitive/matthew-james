@@ -70,25 +70,25 @@ export default {
 }
 
 .circle-one {
-    right: 30%;
-    top: -30%;
+    right: -32%;
+    top: 0%;
     position: absolute;
     animation: MoveUpDown 6s linear infinite;
 }
 .circle-two {
-    top: -20%;
+    top: 0%;
     animation: MoveUpDown 7s linear infinite;
 }
 .circle-three {
     animation: MoveUpDownReverse 5s linear infinite;
     position: absolute;
     top: -20%;
-    left: -89%;
+    left: -129%;
 }
 .circle-five {
-    right: 10%;
+    top: -60%;
     animation: MoveUpDown 6.5s linear infinite;
-    top: -50%;
+    right: -10%;
 }
 
 @media(min-width: 768px) {

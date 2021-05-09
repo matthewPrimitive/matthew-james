@@ -38,8 +38,8 @@
 </section>
 
 <div class="bg-cover bg-no-repeat w-full" style="background-image: url(/assets/img/background-pattern-two.svg);">
-    <div class="flex flex-wrap md:w-9/10 w-full mx-auto md:pb-32 pt-0 pt-16">
-        <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1500" class="md:w-1/2 w-9/10 mx-auto md:w-full pb-8 relative">
+    <div class="flex flex-wrap md:w-9/10 w-full mx-auto md:pb-32 pt-16">
+        <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1500" class="md:w-1/2 mx-auto w-9/10 pb-8 relative">
             <h2 class="text-mainPurple">Reach Out!</h2>
             <p class="text-mainPurple max-w-9/10 mt-4">Even if you just have questions, feel free to reach out and our team will connect with you. We will work with you to find out your best path!</p>
             <p class="text-mainPurple max-w-9/10 mt-8">If you prefer a direct line to us, feel free to reach out with a phone call or a direct email.</p>
@@ -61,7 +61,7 @@
                 <a href="mailto:jamesmmatt@gmail.com" class="text-darkPurple ml-4">jamesmmatt@gmail.com</a>
             </div>
 
-            <img class="h-48 rounded-full mt-24" src="/assets/img/markable-logo.svg" alt="{{ $page->siteName }} logo" />
+            <img class="h-48 rounded-full md:mt-24 mt-8" src="/assets/img/markable-logo.svg" alt="{{ $page->siteName }} logo" />
 
         </div>
 
