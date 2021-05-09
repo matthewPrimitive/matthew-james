@@ -4,15 +4,15 @@
     <div class="hero-container flex md:flex-row flex-col items-center justify-between w-9/10 mx-auto">
         <div class="hero flex flex-col justify-center h-full pt-56 md:pb-32 pb-20">
             <div class="flex sm:items-center">
-                <h3 data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000" class="text-mainPurple">Web Development</h3>
+                <h3 data-aos="fade-right" data-aos-delay="0" data-aos-duration="1000" class="text-mainPurple">Web Development</h3>
 
-                <h3 data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000" class="text-mainPurple mx-3">|</h3>
-                <h3 data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000" class="text-mainPurple">Client Assisting</h3>
+                <h3 data-aos="fade-down" data-aos-delay="0" data-aos-duration="1000" class="text-mainPurple mx-3">|</h3>
+                <h3 data-aos="fade-left" data-aos-delay="0" data-aos-duration="1000" class="text-mainPurple">Client Assisting</h3>
             </div>
             <h1 class="text-mainPurple typing" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">Markable</h1>
             <p class="text-mainPurple" data-aos="fade-right" data-aos-delay="350" data-aos-duration="1000">Creating custom websites for anything your business does.</p>
         </div>
-        <div data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000" class="w-1/2 relative mt-20 md:mt-0 md:pt-56 pt-0 pb-32">
+        <div data-aos="zoom-in-up" data-aos-delay="0" data-aos-duration="1000" class="w-1/2 relative mt-20 md:mt-0 md:pt-56 pt-0 pb-32">
             <div class="md:w-64 w-48 h-48 md:h-64 mx-auto relative z-10 logo-right">
                 <img src="/assets/img/markable-logo.svg" class="w-full h-full rounded-full">
             </div>

@@ -3251,7 +3251,7 @@ var staticRenderFns = [
                   staticClass: "text-mainPurple",
                   attrs: {
                     "data-aos": "fade-right",
-                    "data-aos-delay": "500",
+                    "data-aos-delay": "0",
                     "data-aos-duration": "1000"
                   }
                 },
@@ -3264,7 +3264,7 @@ var staticRenderFns = [
                   staticClass: "text-mainPurple mx-3",
                   attrs: {
                     "data-aos": "fade-down",
-                    "data-aos-delay": "500",
+                    "data-aos-delay": "0",
                     "data-aos-duration": "1000"
                   }
                 },
@@ -3277,7 +3277,7 @@ var staticRenderFns = [
                   staticClass: "text-mainPurple",
                   attrs: {
                     "data-aos": "fade-left",
-                    "data-aos-delay": "500",
+                    "data-aos-delay": "0",
                     "data-aos-duration": "1000"
                   }
                 },
@@ -3323,7 +3323,7 @@ var staticRenderFns = [
             staticClass: "w-1/2 relative mt-20 md:mt-0 md:pt-56 pt-0 pb-32",
             attrs: {
               "data-aos": "zoom-in-up",
-              "data-aos-delay": "500",
+              "data-aos-delay": "0",
               "data-aos-duration": "1000"
             }
           },
