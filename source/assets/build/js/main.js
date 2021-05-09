@@ -3241,7 +3241,7 @@ var staticRenderFns = [
           "div",
           {
             staticClass:
-              "hero flex flex-col justify-center h-full pt-56 md:pb-32 pb-20"
+              "hero flex flex-col justify-center h-full pt-56 md:pb-32 pb-20 relative z-10"
           },
           [
             _c("div", { staticClass: "flex sm:items-center" }, [
@@ -3320,7 +3320,8 @@ var staticRenderFns = [
         _c(
           "div",
           {
-            staticClass: "w-1/2 relative mt-20 md:mt-0 md:pt-56 pt-0 pb-32",
+            staticClass:
+              "w-1/2 absolute md:relative mt-20 md:mt-0 md:pt-56 pt-0 pb-32",
             attrs: {
               "data-aos": "zoom-in-up",
               "data-aos-delay": "0",
@@ -3332,7 +3333,7 @@ var staticRenderFns = [
               "div",
               {
                 staticClass:
-                  "md:w-64 w-48 h-48 md:h-64 mx-auto relative z-10 logo-right"
+                  "md:w-64 w-48 h-48 md:h-64 mx-auto relative z-10 logo-right sm:block hidden"
               },
               [
                 _c("img", {
@@ -3349,7 +3350,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("div", {
               staticClass:
-                "md:w-40 w-24 h-24 md:h-40 bg-mainPurple rounded-full mx-auto absolute circle-two"
+                "md:w-40 w-24 h-24 md:h-40 md:bg-mainPurple bg-mainBlue rounded-full mx-auto absolute circle-two"
             }),
             _vm._v(" "),
             _c("div", {
@@ -3359,7 +3360,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("div", {
               staticClass:
-                "md:w-40 w-24 h-24 md:h-40 bg-mainPurple rounded-full mx-auto absolute circle-five"
+                "md:w-40 w-24 h-24 md:h-40 md:bg-mainPurple bg-mainBlue rounded-full mx-auto absolute circle-five"
             })
           ]
         )
