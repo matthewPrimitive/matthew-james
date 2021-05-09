@@ -1,8 +1,8 @@
 
 
 <template>
-    <div class="hero-container pt-56 pb-32 flex md:flex-row flex-col items-center justify-between w-9/10 mx-auto">
-        <div v-if="show" class="hero flex flex-col justify-center h-full">
+    <div class="hero-container flex md:flex-row flex-col items-center justify-between w-9/10 mx-auto">
+        <div class="hero flex flex-col justify-center h-full pt-56 md:pb-32 pb-20">
             <div class="flex sm:items-center">
                 <h3 data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000" class="text-mainPurple">Web Development</h3>
 
@@ -12,14 +12,14 @@
             <h1 class="text-mainPurple typing" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">Markable</h1>
             <p class="text-mainPurple" data-aos="fade-right" data-aos-delay="350" data-aos-duration="1000">Creating custom websites for anything your business does.</p>
         </div>
-        <div class="w-1/2 relative mt-20 md:mt-0">
-            <div class="w-64 h-64 mx-auto relative z-10 logo-right">
+        <div data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000" class="w-1/2 relative mt-20 md:mt-0 md:pt-56 pt-0 pb-32">
+            <div class="md:w-64 w-48 h-48 md:h-64 mx-auto relative z-10 logo-right">
                 <img src="/assets/img/markable-logo.svg" class="w-full h-full rounded-full">
             </div>
-            <div class="w-24 h-24 bg-mainBlue rounded-full mx-auto circle-one md:block hidden"></div>
-            <div class="w-40 h-40 bg-mainBlue md:bg-mainPurple rounded-full mx-auto absolute circle-two"></div>
-            <div class="w-24 h-24 bg-mainBlue rounded-full mx-auto circle-three md:block hidden"></div>
-            <div class="w-40 h-40 bg-mainPurple rounded-full mx-auto absolute circle-five md:block hidden"></div>
+            <div class="md:w-24 w-16 md:h-24 h-16 absolute bg-mainBlue rounded-full mx-auto circle-one"></div>
+            <div class="md:w-40 w-24 h-24 md:h-40 bg-mainPurple rounded-full mx-auto absolute circle-two"></div>
+            <div class="md:w-24 w-16 md:h-24 h-16 bg-mainBlue absolute rounded-full mx-auto circle-three"></div>
+            <div class="md:w-40 w-24 h-24 md:h-40 bg-mainPurple rounded-full mx-auto absolute circle-five"></div>
 
         </div>
 
@@ -27,24 +27,13 @@
 </template>
 
 <script>
-import Vue from 'vue'
-import VueTypedJs from 'vue-typed-js'
-Vue.use(VueTypedJs)
 
 export default {
     data() {
         return {
-            show: false,
-            showBorder: false,
-            showTreeOne: false,
-            showTreeTwo: false,
         }
     },
     mounted() {
-        this.show = true; // might need this.$nextTick
-        setTimeout(()=>{this.showBorder = true;}, 1000);
-        setTimeout(()=>{this.showTreeOne = true;}, 2000);
-        setTimeout(()=>{this.showTreeTwo = true;}, 2500);
     },
     methods: {
         
@@ -56,11 +45,19 @@ export default {
 
 .hero-container {
     position: relative;
-    h1 {
-        font-size: 76px;
-    }
-    h3 {
-        font-size: 18px;
+        h1 {
+            font-size: 64px;
+        }
+        h3 {
+            font-size: 18px;
+        }
+    @media(min-width: 768px) {
+        h1 {
+            font-size: 76px;
+        }
+        h3 {
+            font-size: 18px;
+        }
     }
 }
 
@@ -71,43 +68,68 @@ export default {
         transform: rotate(3600deg);
     }
 }
+
 .circle-one {
-    transform: translate(450px, -150px);
+    right: 30%;
+    top: -30%;
     position: absolute;
     animation: MoveUpDown 6s linear infinite;
 }
 .circle-two {
-    transform: translate(70px, -170px);
+    top: -20%;
     animation: MoveUpDown 7s linear infinite;
 }
 .circle-three {
-    transform: translate(150px, -220px);
     animation: MoveUpDownReverse 5s linear infinite;
     position: absolute;
+    top: -20%;
+    left: -89%;
 }
 .circle-five {
-    transform: translate(540px, -340px);
+    right: 10%;
     animation: MoveUpDown 6.5s linear infinite;
+    top: -50%;
+}
+
+@media(min-width: 768px) {
+    .circle-one {
+        right: 30%;
+        top: 0;
+        position: absolute;
+        animation: MoveUpDown 6s linear infinite;
+    }
+    .circle-two {
+        top: 20%;
+        animation: MoveUpDown 7s linear infinite;
+    }
+    .circle-three {
+        animation: MoveUpDownReverse 5s linear infinite;
+        position: absolute;
+        top: 0;
+        left: -89%;
+    }
+    .circle-five {
+        right: 10%;
+        animation: MoveUpDown 6.5s linear infinite;
+        top: 30%;
+    }
 }
 
 
 @keyframes MoveUpDown {
   0%, 100% {
-    top: 100px;
-    left: 0px;
+    transform: translate(0, 100px);
   }
   50% {
-    top: 180px;
-    left: 30px;
+    transform: translate(30px, 180px);
   }
 }
 @keyframes MoveUpDownReverse {
   0%, 100% {
-    top: 200px;
-    right: 30px;
+    transform: translate(200px, 30px);
   }
   50% {
-    top: 100px;
+    transform: translate(200px, 100px);
   }
 }
 </style>

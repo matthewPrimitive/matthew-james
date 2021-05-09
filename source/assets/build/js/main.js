@@ -1738,9 +1738,6 @@ module.exports = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var vue_typed_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-typed-js */ "./node_modules/vue-typed-js/index.js");
 //
 //
 //
@@ -1769,33 +1766,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
-
-vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_typed_js__WEBPACK_IMPORTED_MODULE_1__["default"]);
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
-    return {
-      show: false,
-      showBorder: false,
-      showTreeOne: false,
-      showTreeTwo: false
-    };
+    return {};
   },
-  mounted: function mounted() {
-    var _this = this;
-
-    this.show = true; // might need this.$nextTick
-
-    setTimeout(function () {
-      _this.showBorder = true;
-    }, 1000);
-    setTimeout(function () {
-      _this.showTreeOne = true;
-    }, 2000);
-    setTimeout(function () {
-      _this.showTreeTwo = true;
-    }, 2500);
-  },
+  mounted: function mounted() {},
   methods: {}
 });
 
@@ -2006,7 +1981,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".hero-container[data-v-44cb3fe2] {\n  position: relative;\n}\n.hero-container h1[data-v-44cb3fe2] {\n  font-size: 76px;\n}\n.hero-container h3[data-v-44cb3fe2] {\n  font-size: 18px;\n}\n.logo-right[data-v-44cb3fe2] {\n  transform: rotate(0deg);\n  transition: 10s ease;\n}\n.logo-right[data-v-44cb3fe2]:hover {\n  transform: rotate(3600deg);\n}\n.circle-one[data-v-44cb3fe2] {\n  transform: translate(450px, -150px);\n  position: absolute;\n  -webkit-animation: MoveUpDown-data-v-44cb3fe2 6s linear infinite;\n          animation: MoveUpDown-data-v-44cb3fe2 6s linear infinite;\n}\n.circle-two[data-v-44cb3fe2] {\n  transform: translate(70px, -170px);\n  -webkit-animation: MoveUpDown-data-v-44cb3fe2 7s linear infinite;\n          animation: MoveUpDown-data-v-44cb3fe2 7s linear infinite;\n}\n.circle-three[data-v-44cb3fe2] {\n  transform: translate(150px, -220px);\n  -webkit-animation: MoveUpDownReverse-data-v-44cb3fe2 5s linear infinite;\n          animation: MoveUpDownReverse-data-v-44cb3fe2 5s linear infinite;\n  position: absolute;\n}\n.circle-five[data-v-44cb3fe2] {\n  transform: translate(540px, -340px);\n  -webkit-animation: MoveUpDown-data-v-44cb3fe2 6.5s linear infinite;\n          animation: MoveUpDown-data-v-44cb3fe2 6.5s linear infinite;\n}\n@-webkit-keyframes MoveUpDown-data-v-44cb3fe2 {\n0%, 100% {\n    top: 100px;\n    left: 0px;\n}\n50% {\n    top: 180px;\n    left: 30px;\n}\n}\n@keyframes MoveUpDown-data-v-44cb3fe2 {\n0%, 100% {\n    top: 100px;\n    left: 0px;\n}\n50% {\n    top: 180px;\n    left: 30px;\n}\n}\n@-webkit-keyframes MoveUpDownReverse-data-v-44cb3fe2 {\n0%, 100% {\n    top: 200px;\n    right: 30px;\n}\n50% {\n    top: 100px;\n}\n}\n@keyframes MoveUpDownReverse-data-v-44cb3fe2 {\n0%, 100% {\n    top: 200px;\n    right: 30px;\n}\n50% {\n    top: 100px;\n}\n}", ""]);
+exports.push([module.i, ".hero-container[data-v-44cb3fe2] {\n  position: relative;\n}\n.hero-container h1[data-v-44cb3fe2] {\n  font-size: 64px;\n}\n.hero-container h3[data-v-44cb3fe2] {\n  font-size: 18px;\n}\n@media (min-width: 768px) {\n.hero-container h1[data-v-44cb3fe2] {\n    font-size: 76px;\n}\n.hero-container h3[data-v-44cb3fe2] {\n    font-size: 18px;\n}\n}\n.logo-right[data-v-44cb3fe2] {\n  transform: rotate(0deg);\n  transition: 10s ease;\n}\n.logo-right[data-v-44cb3fe2]:hover {\n  transform: rotate(3600deg);\n}\n.circle-one[data-v-44cb3fe2] {\n  right: 30%;\n  top: -30%;\n  position: absolute;\n  -webkit-animation: MoveUpDown-data-v-44cb3fe2 6s linear infinite;\n          animation: MoveUpDown-data-v-44cb3fe2 6s linear infinite;\n}\n.circle-two[data-v-44cb3fe2] {\n  top: -20%;\n  -webkit-animation: MoveUpDown-data-v-44cb3fe2 7s linear infinite;\n          animation: MoveUpDown-data-v-44cb3fe2 7s linear infinite;\n}\n.circle-three[data-v-44cb3fe2] {\n  -webkit-animation: MoveUpDownReverse-data-v-44cb3fe2 5s linear infinite;\n          animation: MoveUpDownReverse-data-v-44cb3fe2 5s linear infinite;\n  position: absolute;\n  top: -20%;\n  left: -89%;\n}\n.circle-five[data-v-44cb3fe2] {\n  right: 10%;\n  -webkit-animation: MoveUpDown-data-v-44cb3fe2 6.5s linear infinite;\n          animation: MoveUpDown-data-v-44cb3fe2 6.5s linear infinite;\n  top: -50%;\n}\n@media (min-width: 768px) {\n.circle-one[data-v-44cb3fe2] {\n    right: 30%;\n    top: 0;\n    position: absolute;\n    -webkit-animation: MoveUpDown-data-v-44cb3fe2 6s linear infinite;\n            animation: MoveUpDown-data-v-44cb3fe2 6s linear infinite;\n}\n.circle-two[data-v-44cb3fe2] {\n    top: 20%;\n    -webkit-animation: MoveUpDown-data-v-44cb3fe2 7s linear infinite;\n            animation: MoveUpDown-data-v-44cb3fe2 7s linear infinite;\n}\n.circle-three[data-v-44cb3fe2] {\n    -webkit-animation: MoveUpDownReverse-data-v-44cb3fe2 5s linear infinite;\n            animation: MoveUpDownReverse-data-v-44cb3fe2 5s linear infinite;\n    position: absolute;\n    top: 0;\n    left: -89%;\n}\n.circle-five[data-v-44cb3fe2] {\n    right: 10%;\n    -webkit-animation: MoveUpDown-data-v-44cb3fe2 6.5s linear infinite;\n            animation: MoveUpDown-data-v-44cb3fe2 6.5s linear infinite;\n    top: 30%;\n}\n}\n@-webkit-keyframes MoveUpDown-data-v-44cb3fe2 {\n0%, 100% {\n    transform: translate(0, 100px);\n}\n50% {\n    transform: translate(30px, 180px);\n}\n}\n@keyframes MoveUpDown-data-v-44cb3fe2 {\n0%, 100% {\n    transform: translate(0, 100px);\n}\n50% {\n    transform: translate(30px, 180px);\n}\n}\n@-webkit-keyframes MoveUpDownReverse-data-v-44cb3fe2 {\n0%, 100% {\n    transform: translate(200px, 30px);\n}\n50% {\n    transform: translate(200px, 100px);\n}\n}\n@keyframes MoveUpDownReverse-data-v-44cb3fe2 {\n0%, 100% {\n    transform: translate(200px, 30px);\n}\n50% {\n    transform: translate(200px, 100px);\n}\n}", ""]);
 
 // exports
 
@@ -2026,25 +2001,6 @@ exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base
 
 // module
 exports.push([module.i, "[data-aos][data-aos][data-aos-duration=\"50\"],body[data-aos-duration=\"50\"] [data-aos]{\n  transition-duration:50ms\n}\n\n[data-aos][data-aos][data-aos-delay=\"50\"],body[data-aos-delay=\"50\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"50\"].aos-animate,body[data-aos-delay=\"50\"] [data-aos].aos-animate{\n  transition-delay:50ms\n}\n\n[data-aos][data-aos][data-aos-duration=\"100\"],body[data-aos-duration=\"100\"] [data-aos]{\n  transition-duration:.1s\n}\n\n[data-aos][data-aos][data-aos-delay=\"100\"],body[data-aos-delay=\"100\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"100\"].aos-animate,body[data-aos-delay=\"100\"] [data-aos].aos-animate{\n  transition-delay:.1s\n}\n\n[data-aos][data-aos][data-aos-duration=\"150\"],body[data-aos-duration=\"150\"] [data-aos]{\n  transition-duration:.15s\n}\n\n[data-aos][data-aos][data-aos-delay=\"150\"],body[data-aos-delay=\"150\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"150\"].aos-animate,body[data-aos-delay=\"150\"] [data-aos].aos-animate{\n  transition-delay:.15s\n}\n\n[data-aos][data-aos][data-aos-duration=\"200\"],body[data-aos-duration=\"200\"] [data-aos]{\n  transition-duration:.2s\n}\n\n[data-aos][data-aos][data-aos-delay=\"200\"],body[data-aos-delay=\"200\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"200\"].aos-animate,body[data-aos-delay=\"200\"] [data-aos].aos-animate{\n  transition-delay:.2s\n}\n\n[data-aos][data-aos][data-aos-duration=\"250\"],body[data-aos-duration=\"250\"] [data-aos]{\n  transition-duration:.25s\n}\n\n[data-aos][data-aos][data-aos-delay=\"250\"],body[data-aos-delay=\"250\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"250\"].aos-animate,body[data-aos-delay=\"250\"] [data-aos].aos-animate{\n  transition-delay:.25s\n}\n\n[data-aos][data-aos][data-aos-duration=\"300\"],body[data-aos-duration=\"300\"] [data-aos]{\n  transition-duration:.3s\n}\n\n[data-aos][data-aos][data-aos-delay=\"300\"],body[data-aos-delay=\"300\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"300\"].aos-animate,body[data-aos-delay=\"300\"] [data-aos].aos-animate{\n  transition-delay:.3s\n}\n\n[data-aos][data-aos][data-aos-duration=\"350\"],body[data-aos-duration=\"350\"] [data-aos]{\n  transition-duration:.35s\n}\n\n[data-aos][data-aos][data-aos-delay=\"350\"],body[data-aos-delay=\"350\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"350\"].aos-animate,body[data-aos-delay=\"350\"] [data-aos].aos-animate{\n  transition-delay:.35s\n}\n\n[data-aos][data-aos][data-aos-duration=\"400\"],body[data-aos-duration=\"400\"] [data-aos]{\n  transition-duration:.4s\n}\n\n[data-aos][data-aos][data-aos-delay=\"400\"],body[data-aos-delay=\"400\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"400\"].aos-animate,body[data-aos-delay=\"400\"] [data-aos].aos-animate{\n  transition-delay:.4s\n}\n\n[data-aos][data-aos][data-aos-duration=\"450\"],body[data-aos-duration=\"450\"] [data-aos]{\n  transition-duration:.45s\n}\n\n[data-aos][data-aos][data-aos-delay=\"450\"],body[data-aos-delay=\"450\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"450\"].aos-animate,body[data-aos-delay=\"450\"] [data-aos].aos-animate{\n  transition-delay:.45s\n}\n\n[data-aos][data-aos][data-aos-duration=\"500\"],body[data-aos-duration=\"500\"] [data-aos]{\n  transition-duration:.5s\n}\n\n[data-aos][data-aos][data-aos-delay=\"500\"],body[data-aos-delay=\"500\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"500\"].aos-animate,body[data-aos-delay=\"500\"] [data-aos].aos-animate{\n  transition-delay:.5s\n}\n\n[data-aos][data-aos][data-aos-duration=\"550\"],body[data-aos-duration=\"550\"] [data-aos]{\n  transition-duration:.55s\n}\n\n[data-aos][data-aos][data-aos-delay=\"550\"],body[data-aos-delay=\"550\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"550\"].aos-animate,body[data-aos-delay=\"550\"] [data-aos].aos-animate{\n  transition-delay:.55s\n}\n\n[data-aos][data-aos][data-aos-duration=\"600\"],body[data-aos-duration=\"600\"] [data-aos]{\n  transition-duration:.6s\n}\n\n[data-aos][data-aos][data-aos-delay=\"600\"],body[data-aos-delay=\"600\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"600\"].aos-animate,body[data-aos-delay=\"600\"] [data-aos].aos-animate{\n  transition-delay:.6s\n}\n\n[data-aos][data-aos][data-aos-duration=\"650\"],body[data-aos-duration=\"650\"] [data-aos]{\n  transition-duration:.65s\n}\n\n[data-aos][data-aos][data-aos-delay=\"650\"],body[data-aos-delay=\"650\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"650\"].aos-animate,body[data-aos-delay=\"650\"] [data-aos].aos-animate{\n  transition-delay:.65s\n}\n\n[data-aos][data-aos][data-aos-duration=\"700\"],body[data-aos-duration=\"700\"] [data-aos]{\n  transition-duration:.7s\n}\n\n[data-aos][data-aos][data-aos-delay=\"700\"],body[data-aos-delay=\"700\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"700\"].aos-animate,body[data-aos-delay=\"700\"] [data-aos].aos-animate{\n  transition-delay:.7s\n}\n\n[data-aos][data-aos][data-aos-duration=\"750\"],body[data-aos-duration=\"750\"] [data-aos]{\n  transition-duration:.75s\n}\n\n[data-aos][data-aos][data-aos-delay=\"750\"],body[data-aos-delay=\"750\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"750\"].aos-animate,body[data-aos-delay=\"750\"] [data-aos].aos-animate{\n  transition-delay:.75s\n}\n\n[data-aos][data-aos][data-aos-duration=\"800\"],body[data-aos-duration=\"800\"] [data-aos]{\n  transition-duration:.8s\n}\n\n[data-aos][data-aos][data-aos-delay=\"800\"],body[data-aos-delay=\"800\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"800\"].aos-animate,body[data-aos-delay=\"800\"] [data-aos].aos-animate{\n  transition-delay:.8s\n}\n\n[data-aos][data-aos][data-aos-duration=\"850\"],body[data-aos-duration=\"850\"] [data-aos]{\n  transition-duration:.85s\n}\n\n[data-aos][data-aos][data-aos-delay=\"850\"],body[data-aos-delay=\"850\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"850\"].aos-animate,body[data-aos-delay=\"850\"] [data-aos].aos-animate{\n  transition-delay:.85s\n}\n\n[data-aos][data-aos][data-aos-duration=\"900\"],body[data-aos-duration=\"900\"] [data-aos]{\n  transition-duration:.9s\n}\n\n[data-aos][data-aos][data-aos-delay=\"900\"],body[data-aos-delay=\"900\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"900\"].aos-animate,body[data-aos-delay=\"900\"] [data-aos].aos-animate{\n  transition-delay:.9s\n}\n\n[data-aos][data-aos][data-aos-duration=\"950\"],body[data-aos-duration=\"950\"] [data-aos]{\n  transition-duration:.95s\n}\n\n[data-aos][data-aos][data-aos-delay=\"950\"],body[data-aos-delay=\"950\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"950\"].aos-animate,body[data-aos-delay=\"950\"] [data-aos].aos-animate{\n  transition-delay:.95s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1000\"],body[data-aos-duration=\"1000\"] [data-aos]{\n  transition-duration:1s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1000\"],body[data-aos-delay=\"1000\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1000\"].aos-animate,body[data-aos-delay=\"1000\"] [data-aos].aos-animate{\n  transition-delay:1s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1050\"],body[data-aos-duration=\"1050\"] [data-aos]{\n  transition-duration:1.05s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1050\"],body[data-aos-delay=\"1050\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1050\"].aos-animate,body[data-aos-delay=\"1050\"] [data-aos].aos-animate{\n  transition-delay:1.05s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1100\"],body[data-aos-duration=\"1100\"] [data-aos]{\n  transition-duration:1.1s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1100\"],body[data-aos-delay=\"1100\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1100\"].aos-animate,body[data-aos-delay=\"1100\"] [data-aos].aos-animate{\n  transition-delay:1.1s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1150\"],body[data-aos-duration=\"1150\"] [data-aos]{\n  transition-duration:1.15s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1150\"],body[data-aos-delay=\"1150\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1150\"].aos-animate,body[data-aos-delay=\"1150\"] [data-aos].aos-animate{\n  transition-delay:1.15s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1200\"],body[data-aos-duration=\"1200\"] [data-aos]{\n  transition-duration:1.2s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1200\"],body[data-aos-delay=\"1200\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1200\"].aos-animate,body[data-aos-delay=\"1200\"] [data-aos].aos-animate{\n  transition-delay:1.2s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1250\"],body[data-aos-duration=\"1250\"] [data-aos]{\n  transition-duration:1.25s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1250\"],body[data-aos-delay=\"1250\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1250\"].aos-animate,body[data-aos-delay=\"1250\"] [data-aos].aos-animate{\n  transition-delay:1.25s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1300\"],body[data-aos-duration=\"1300\"] [data-aos]{\n  transition-duration:1.3s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1300\"],body[data-aos-delay=\"1300\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1300\"].aos-animate,body[data-aos-delay=\"1300\"] [data-aos].aos-animate{\n  transition-delay:1.3s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1350\"],body[data-aos-duration=\"1350\"] [data-aos]{\n  transition-duration:1.35s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1350\"],body[data-aos-delay=\"1350\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1350\"].aos-animate,body[data-aos-delay=\"1350\"] [data-aos].aos-animate{\n  transition-delay:1.35s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1400\"],body[data-aos-duration=\"1400\"] [data-aos]{\n  transition-duration:1.4s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1400\"],body[data-aos-delay=\"1400\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1400\"].aos-animate,body[data-aos-delay=\"1400\"] [data-aos].aos-animate{\n  transition-delay:1.4s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1450\"],body[data-aos-duration=\"1450\"] [data-aos]{\n  transition-duration:1.45s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1450\"],body[data-aos-delay=\"1450\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1450\"].aos-animate,body[data-aos-delay=\"1450\"] [data-aos].aos-animate{\n  transition-delay:1.45s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1500\"],body[data-aos-duration=\"1500\"] [data-aos]{\n  transition-duration:1.5s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1500\"],body[data-aos-delay=\"1500\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1500\"].aos-animate,body[data-aos-delay=\"1500\"] [data-aos].aos-animate{\n  transition-delay:1.5s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1550\"],body[data-aos-duration=\"1550\"] [data-aos]{\n  transition-duration:1.55s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1550\"],body[data-aos-delay=\"1550\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1550\"].aos-animate,body[data-aos-delay=\"1550\"] [data-aos].aos-animate{\n  transition-delay:1.55s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1600\"],body[data-aos-duration=\"1600\"] [data-aos]{\n  transition-duration:1.6s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1600\"],body[data-aos-delay=\"1600\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1600\"].aos-animate,body[data-aos-delay=\"1600\"] [data-aos].aos-animate{\n  transition-delay:1.6s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1650\"],body[data-aos-duration=\"1650\"] [data-aos]{\n  transition-duration:1.65s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1650\"],body[data-aos-delay=\"1650\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1650\"].aos-animate,body[data-aos-delay=\"1650\"] [data-aos].aos-animate{\n  transition-delay:1.65s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1700\"],body[data-aos-duration=\"1700\"] [data-aos]{\n  transition-duration:1.7s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1700\"],body[data-aos-delay=\"1700\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1700\"].aos-animate,body[data-aos-delay=\"1700\"] [data-aos].aos-animate{\n  transition-delay:1.7s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1750\"],body[data-aos-duration=\"1750\"] [data-aos]{\n  transition-duration:1.75s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1750\"],body[data-aos-delay=\"1750\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1750\"].aos-animate,body[data-aos-delay=\"1750\"] [data-aos].aos-animate{\n  transition-delay:1.75s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1800\"],body[data-aos-duration=\"1800\"] [data-aos]{\n  transition-duration:1.8s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1800\"],body[data-aos-delay=\"1800\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1800\"].aos-animate,body[data-aos-delay=\"1800\"] [data-aos].aos-animate{\n  transition-delay:1.8s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1850\"],body[data-aos-duration=\"1850\"] [data-aos]{\n  transition-duration:1.85s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1850\"],body[data-aos-delay=\"1850\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1850\"].aos-animate,body[data-aos-delay=\"1850\"] [data-aos].aos-animate{\n  transition-delay:1.85s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1900\"],body[data-aos-duration=\"1900\"] [data-aos]{\n  transition-duration:1.9s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1900\"],body[data-aos-delay=\"1900\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1900\"].aos-animate,body[data-aos-delay=\"1900\"] [data-aos].aos-animate{\n  transition-delay:1.9s\n}\n\n[data-aos][data-aos][data-aos-duration=\"1950\"],body[data-aos-duration=\"1950\"] [data-aos]{\n  transition-duration:1.95s\n}\n\n[data-aos][data-aos][data-aos-delay=\"1950\"],body[data-aos-delay=\"1950\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"1950\"].aos-animate,body[data-aos-delay=\"1950\"] [data-aos].aos-animate{\n  transition-delay:1.95s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2000\"],body[data-aos-duration=\"2000\"] [data-aos]{\n  transition-duration:2s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2000\"],body[data-aos-delay=\"2000\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2000\"].aos-animate,body[data-aos-delay=\"2000\"] [data-aos].aos-animate{\n  transition-delay:2s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2050\"],body[data-aos-duration=\"2050\"] [data-aos]{\n  transition-duration:2.05s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2050\"],body[data-aos-delay=\"2050\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2050\"].aos-animate,body[data-aos-delay=\"2050\"] [data-aos].aos-animate{\n  transition-delay:2.05s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2100\"],body[data-aos-duration=\"2100\"] [data-aos]{\n  transition-duration:2.1s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2100\"],body[data-aos-delay=\"2100\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2100\"].aos-animate,body[data-aos-delay=\"2100\"] [data-aos].aos-animate{\n  transition-delay:2.1s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2150\"],body[data-aos-duration=\"2150\"] [data-aos]{\n  transition-duration:2.15s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2150\"],body[data-aos-delay=\"2150\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2150\"].aos-animate,body[data-aos-delay=\"2150\"] [data-aos].aos-animate{\n  transition-delay:2.15s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2200\"],body[data-aos-duration=\"2200\"] [data-aos]{\n  transition-duration:2.2s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2200\"],body[data-aos-delay=\"2200\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2200\"].aos-animate,body[data-aos-delay=\"2200\"] [data-aos].aos-animate{\n  transition-delay:2.2s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2250\"],body[data-aos-duration=\"2250\"] [data-aos]{\n  transition-duration:2.25s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2250\"],body[data-aos-delay=\"2250\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2250\"].aos-animate,body[data-aos-delay=\"2250\"] [data-aos].aos-animate{\n  transition-delay:2.25s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2300\"],body[data-aos-duration=\"2300\"] [data-aos]{\n  transition-duration:2.3s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2300\"],body[data-aos-delay=\"2300\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2300\"].aos-animate,body[data-aos-delay=\"2300\"] [data-aos].aos-animate{\n  transition-delay:2.3s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2350\"],body[data-aos-duration=\"2350\"] [data-aos]{\n  transition-duration:2.35s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2350\"],body[data-aos-delay=\"2350\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2350\"].aos-animate,body[data-aos-delay=\"2350\"] [data-aos].aos-animate{\n  transition-delay:2.35s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2400\"],body[data-aos-duration=\"2400\"] [data-aos]{\n  transition-duration:2.4s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2400\"],body[data-aos-delay=\"2400\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2400\"].aos-animate,body[data-aos-delay=\"2400\"] [data-aos].aos-animate{\n  transition-delay:2.4s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2450\"],body[data-aos-duration=\"2450\"] [data-aos]{\n  transition-duration:2.45s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2450\"],body[data-aos-delay=\"2450\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2450\"].aos-animate,body[data-aos-delay=\"2450\"] [data-aos].aos-animate{\n  transition-delay:2.45s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2500\"],body[data-aos-duration=\"2500\"] [data-aos]{\n  transition-duration:2.5s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2500\"],body[data-aos-delay=\"2500\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2500\"].aos-animate,body[data-aos-delay=\"2500\"] [data-aos].aos-animate{\n  transition-delay:2.5s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2550\"],body[data-aos-duration=\"2550\"] [data-aos]{\n  transition-duration:2.55s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2550\"],body[data-aos-delay=\"2550\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2550\"].aos-animate,body[data-aos-delay=\"2550\"] [data-aos].aos-animate{\n  transition-delay:2.55s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2600\"],body[data-aos-duration=\"2600\"] [data-aos]{\n  transition-duration:2.6s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2600\"],body[data-aos-delay=\"2600\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2600\"].aos-animate,body[data-aos-delay=\"2600\"] [data-aos].aos-animate{\n  transition-delay:2.6s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2650\"],body[data-aos-duration=\"2650\"] [data-aos]{\n  transition-duration:2.65s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2650\"],body[data-aos-delay=\"2650\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2650\"].aos-animate,body[data-aos-delay=\"2650\"] [data-aos].aos-animate{\n  transition-delay:2.65s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2700\"],body[data-aos-duration=\"2700\"] [data-aos]{\n  transition-duration:2.7s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2700\"],body[data-aos-delay=\"2700\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2700\"].aos-animate,body[data-aos-delay=\"2700\"] [data-aos].aos-animate{\n  transition-delay:2.7s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2750\"],body[data-aos-duration=\"2750\"] [data-aos]{\n  transition-duration:2.75s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2750\"],body[data-aos-delay=\"2750\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2750\"].aos-animate,body[data-aos-delay=\"2750\"] [data-aos].aos-animate{\n  transition-delay:2.75s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2800\"],body[data-aos-duration=\"2800\"] [data-aos]{\n  transition-duration:2.8s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2800\"],body[data-aos-delay=\"2800\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2800\"].aos-animate,body[data-aos-delay=\"2800\"] [data-aos].aos-animate{\n  transition-delay:2.8s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2850\"],body[data-aos-duration=\"2850\"] [data-aos]{\n  transition-duration:2.85s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2850\"],body[data-aos-delay=\"2850\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2850\"].aos-animate,body[data-aos-delay=\"2850\"] [data-aos].aos-animate{\n  transition-delay:2.85s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2900\"],body[data-aos-duration=\"2900\"] [data-aos]{\n  transition-duration:2.9s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2900\"],body[data-aos-delay=\"2900\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2900\"].aos-animate,body[data-aos-delay=\"2900\"] [data-aos].aos-animate{\n  transition-delay:2.9s\n}\n\n[data-aos][data-aos][data-aos-duration=\"2950\"],body[data-aos-duration=\"2950\"] [data-aos]{\n  transition-duration:2.95s\n}\n\n[data-aos][data-aos][data-aos-delay=\"2950\"],body[data-aos-delay=\"2950\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"2950\"].aos-animate,body[data-aos-delay=\"2950\"] [data-aos].aos-animate{\n  transition-delay:2.95s\n}\n\n[data-aos][data-aos][data-aos-duration=\"3000\"],body[data-aos-duration=\"3000\"] [data-aos]{\n  transition-duration:3s\n}\n\n[data-aos][data-aos][data-aos-delay=\"3000\"],body[data-aos-delay=\"3000\"] [data-aos]{\n  transition-delay:0\n}\n\n[data-aos][data-aos][data-aos-delay=\"3000\"].aos-animate,body[data-aos-delay=\"3000\"] [data-aos].aos-animate{\n  transition-delay:3s\n}\n\n[data-aos][data-aos][data-aos-easing=linear],body[data-aos-easing=linear] [data-aos]{\n  transition-timing-function:cubic-bezier(.25,.25,.75,.75)\n}\n\n[data-aos][data-aos][data-aos-easing=ease],body[data-aos-easing=ease] [data-aos]{\n  transition-timing-function:ease\n}\n\n[data-aos][data-aos][data-aos-easing=ease-in],body[data-aos-easing=ease-in] [data-aos]{\n  transition-timing-function:ease-in\n}\n\n[data-aos][data-aos][data-aos-easing=ease-out],body[data-aos-easing=ease-out] [data-aos]{\n  transition-timing-function:ease-out\n}\n\n[data-aos][data-aos][data-aos-easing=ease-in-out],body[data-aos-easing=ease-in-out] [data-aos]{\n  transition-timing-function:ease-in-out\n}\n\n[data-aos][data-aos][data-aos-easing=ease-in-back],body[data-aos-easing=ease-in-back] [data-aos]{\n  transition-timing-function:cubic-bezier(.6,-.28,.735,.045)\n}\n\n[data-aos][data-aos][data-aos-easing=ease-out-back],body[data-aos-easing=ease-out-back] [data-aos]{\n  transition-timing-function:cubic-bezier(.175,.885,.32,1.275)\n}\n\n[data-aos][data-aos][data-aos-easing=ease-in-out-back],body[data-aos-easing=ease-in-out-back] [data-aos]{\n  transition-timing-function:cubic-bezier(.68,-.55,.265,1.55)\n}\n\n[data-aos][data-aos][data-aos-easing=ease-in-sine],body[data-aos-easing=ease-in-sine] [data-aos]{\n  transition-timing-function:cubic-bezier(.47,0,.745,.715)\n}\n\n[data-aos][data-aos][data-aos-easing=ease-out-sine],body[data-aos-easing=ease-out-sine] [data-aos]{\n  transition-timing-function:cubic-bezier(.39,.575,.565,1)\n}\n\n[data-aos][data-aos][data-aos-easing=ease-in-out-sine],body[data-aos-easing=ease-in-out-sine] [data-aos]{\n  transition-timing-function:cubic-bezier(.445,.05,.55,.95)\n}\n\n[data-aos][data-aos][data-aos-easing=ease-in-quad],body[data-aos-easing=ease-in-quad] [data-aos]{\n  transition-timing-function:cubic-bezier(.55,.085,.68,.53)\n}\n\n[data-aos][data-aos][data-aos-easing=ease-out-quad],body[data-aos-easing=ease-out-quad] [data-aos]{\n  transition-timing-function:cubic-bezier(.25,.46,.45,.94)\n}\n\n[data-aos][data-aos][data-aos-easing=ease-in-out-quad],body[data-aos-easing=ease-in-out-quad] [data-aos]{\n  transition-timing-function:cubic-bezier(.455,.03,.515,.955)\n}\n\n[data-aos][data-aos][data-aos-easing=ease-in-cubic],body[data-aos-easing=ease-in-cubic] [data-aos]{\n  transition-timing-function:cubic-bezier(.55,.085,.68,.53)\n}\n\n[data-aos][data-aos][data-aos-easing=ease-out-cubic],body[data-aos-easing=ease-out-cubic] [data-aos]{\n  transition-timing-function:cubic-bezier(.25,.46,.45,.94)\n}\n\n[data-aos][data-aos][data-aos-easing=ease-in-out-cubic],body[data-aos-easing=ease-in-out-cubic] [data-aos]{\n  transition-timing-function:cubic-bezier(.455,.03,.515,.955)\n}\n\n[data-aos][data-aos][data-aos-easing=ease-in-quart],body[data-aos-easing=ease-in-quart] [data-aos]{\n  transition-timing-function:cubic-bezier(.55,.085,.68,.53)\n}\n\n[data-aos][data-aos][data-aos-easing=ease-out-quart],body[data-aos-easing=ease-out-quart] [data-aos]{\n  transition-timing-function:cubic-bezier(.25,.46,.45,.94)\n}\n\n[data-aos][data-aos][data-aos-easing=ease-in-out-quart],body[data-aos-easing=ease-in-out-quart] [data-aos]{\n  transition-timing-function:cubic-bezier(.455,.03,.515,.955)\n}\n\n[data-aos^=fade][data-aos^=fade]{\n  opacity:0;\n  transition-property:opacity,transform\n}\n\n[data-aos^=fade][data-aos^=fade].aos-animate{\n  opacity:1;\n  transform:translateZ(0)\n}\n\n[data-aos=fade-up]{\n  transform:translate3d(0,100px,0)\n}\n\n[data-aos=fade-down]{\n  transform:translate3d(0,-100px,0)\n}\n\n[data-aos=fade-right]{\n  transform:translate3d(-100px,0,0)\n}\n\n[data-aos=fade-left]{\n  transform:translate3d(100px,0,0)\n}\n\n[data-aos=fade-up-right]{\n  transform:translate3d(-100px,100px,0)\n}\n\n[data-aos=fade-up-left]{\n  transform:translate3d(100px,100px,0)\n}\n\n[data-aos=fade-down-right]{\n  transform:translate3d(-100px,-100px,0)\n}\n\n[data-aos=fade-down-left]{\n  transform:translate3d(100px,-100px,0)\n}\n\n[data-aos^=zoom][data-aos^=zoom]{\n  opacity:0;\n  transition-property:opacity,transform\n}\n\n[data-aos^=zoom][data-aos^=zoom].aos-animate{\n  opacity:1;\n  transform:translateZ(0) scale(1)\n}\n\n[data-aos=zoom-in]{\n  transform:scale(.6)\n}\n\n[data-aos=zoom-in-up]{\n  transform:translate3d(0,100px,0) scale(.6)\n}\n\n[data-aos=zoom-in-down]{\n  transform:translate3d(0,-100px,0) scale(.6)\n}\n\n[data-aos=zoom-in-right]{\n  transform:translate3d(-100px,0,0) scale(.6)\n}\n\n[data-aos=zoom-in-left]{\n  transform:translate3d(100px,0,0) scale(.6)\n}\n\n[data-aos=zoom-out]{\n  transform:scale(1.2)\n}\n\n[data-aos=zoom-out-up]{\n  transform:translate3d(0,100px,0) scale(1.2)\n}\n\n[data-aos=zoom-out-down]{\n  transform:translate3d(0,-100px,0) scale(1.2)\n}\n\n[data-aos=zoom-out-right]{\n  transform:translate3d(-100px,0,0) scale(1.2)\n}\n\n[data-aos=zoom-out-left]{\n  transform:translate3d(100px,0,0) scale(1.2)\n}\n\n[data-aos^=slide][data-aos^=slide]{\n  transition-property:transform\n}\n\n[data-aos^=slide][data-aos^=slide].aos-animate{\n  transform:translateZ(0)\n}\n\n[data-aos=slide-up]{\n  transform:translate3d(0,100%,0)\n}\n\n[data-aos=slide-down]{\n  transform:translate3d(0,-100%,0)\n}\n\n[data-aos=slide-right]{\n  transform:translate3d(-100%,0,0)\n}\n\n[data-aos=slide-left]{\n  transform:translate3d(100%,0,0)\n}\n\n[data-aos^=flip][data-aos^=flip]{\n  -webkit-backface-visibility:hidden;\n          backface-visibility:hidden;\n  transition-property:transform\n}\n\n[data-aos=flip-left]{\n  transform:perspective(2500px) rotateY(-100deg)\n}\n\n[data-aos=flip-left].aos-animate{\n  transform:perspective(2500px) rotateY(0)\n}\n\n[data-aos=flip-right]{\n  transform:perspective(2500px) rotateY(100deg)\n}\n\n[data-aos=flip-right].aos-animate{\n  transform:perspective(2500px) rotateY(0)\n}\n\n[data-aos=flip-up]{\n  transform:perspective(2500px) rotateX(-100deg)\n}\n\n[data-aos=flip-up].aos-animate{\n  transform:perspective(2500px) rotateX(0)\n}\n\n[data-aos=flip-down]{\n  transform:perspective(2500px) rotateX(100deg)\n}\n\n[data-aos=flip-down].aos-animate{\n  transform:perspective(2500px) rotateX(0)\n}", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-typed-js/dist/vue-typed-js.css":
-/*!*****************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-typed-js/dist/vue-typed-js.css ***!
-  \*****************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, ".typed-element {\n  display: flex;\n  align-items: center;\n}\n\n.typed-element .typed-cursor {\n  opacity: 1;\n  -webkit-animation: typedjsBlink 0.7s infinite;\n          animation: typedjsBlink 0.7s infinite;\n}\n\n@-webkit-keyframes typedjsBlink {\n  50% {\n    opacity: 0.0;\n  }\n}\n\n@keyframes typedjsBlink {\n  50% {\n    opacity: 0.0;\n  }\n}\n", ""]);
 
 // exports
 
@@ -3267,135 +3223,148 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    {
-      staticClass:
-        "hero-container pt-56 pb-32 flex md:flex-row flex-col items-center justify-between w-9/10 mx-auto"
-    },
-    [
-      _vm.show
-        ? _c(
-            "div",
-            { staticClass: "hero flex flex-col justify-center h-full" },
-            [
-              _vm._m(0),
-              _vm._v(" "),
-              _c(
-                "h1",
-                {
-                  staticClass: "text-mainPurple typing",
-                  attrs: {
-                    "data-aos": "fade-right",
-                    "data-aos-delay": "300",
-                    "data-aos-duration": "1000"
-                  }
-                },
-                [_vm._v("Markable")]
-              ),
-              _vm._v(" "),
-              _c(
-                "p",
-                {
-                  staticClass: "text-mainPurple",
-                  attrs: {
-                    "data-aos": "fade-right",
-                    "data-aos-delay": "350",
-                    "data-aos-duration": "1000"
-                  }
-                },
-                [
-                  _vm._v(
-                    "Creating custom websites for anything your business does."
-                  )
-                ]
-              )
-            ]
-          )
-        : _vm._e(),
-      _vm._v(" "),
-      _vm._m(1)
-    ]
-  )
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "flex sm:items-center" }, [
-      _c(
-        "h3",
-        {
-          staticClass: "text-mainPurple",
-          attrs: {
-            "data-aos": "fade-right",
-            "data-aos-delay": "500",
-            "data-aos-duration": "1000"
-          }
-        },
-        [_vm._v("Web Development")]
-      ),
-      _vm._v(" "),
-      _c(
-        "h3",
-        {
-          staticClass: "text-mainPurple mx-3",
-          attrs: {
-            "data-aos": "fade-down",
-            "data-aos-delay": "500",
-            "data-aos-duration": "1000"
-          }
-        },
-        [_vm._v("|")]
-      ),
-      _vm._v(" "),
-      _c(
-        "h3",
-        {
-          staticClass: "text-mainPurple",
-          attrs: {
-            "data-aos": "fade-left",
-            "data-aos-delay": "500",
-            "data-aos-duration": "1000"
-          }
-        },
-        [_vm._v("Client Assisting")]
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "w-1/2 relative mt-20 md:mt-0" }, [
-      _c("div", { staticClass: "w-64 h-64 mx-auto relative z-10 logo-right" }, [
-        _c("img", {
-          staticClass: "w-full h-full rounded-full",
-          attrs: { src: "/assets/img/markable-logo.svg" }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", {
+    return _c(
+      "div",
+      {
         staticClass:
-          "w-24 h-24 bg-mainBlue rounded-full mx-auto circle-one md:block hidden"
-      }),
-      _vm._v(" "),
-      _c("div", {
-        staticClass:
-          "w-40 h-40 bg-mainBlue md:bg-mainPurple rounded-full mx-auto absolute circle-two"
-      }),
-      _vm._v(" "),
-      _c("div", {
-        staticClass:
-          "w-24 h-24 bg-mainBlue rounded-full mx-auto circle-three md:block hidden"
-      }),
-      _vm._v(" "),
-      _c("div", {
-        staticClass:
-          "w-40 h-40 bg-mainPurple rounded-full mx-auto absolute circle-five md:block hidden"
-      })
-    ])
+          "hero-container flex md:flex-row flex-col items-center justify-between w-9/10 mx-auto"
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "hero flex flex-col justify-center h-full pt-56 md:pb-32 pb-20"
+          },
+          [
+            _c("div", { staticClass: "flex sm:items-center" }, [
+              _c(
+                "h3",
+                {
+                  staticClass: "text-mainPurple",
+                  attrs: {
+                    "data-aos": "fade-right",
+                    "data-aos-delay": "500",
+                    "data-aos-duration": "1000"
+                  }
+                },
+                [_vm._v("Web Development")]
+              ),
+              _vm._v(" "),
+              _c(
+                "h3",
+                {
+                  staticClass: "text-mainPurple mx-3",
+                  attrs: {
+                    "data-aos": "fade-down",
+                    "data-aos-delay": "500",
+                    "data-aos-duration": "1000"
+                  }
+                },
+                [_vm._v("|")]
+              ),
+              _vm._v(" "),
+              _c(
+                "h3",
+                {
+                  staticClass: "text-mainPurple",
+                  attrs: {
+                    "data-aos": "fade-left",
+                    "data-aos-delay": "500",
+                    "data-aos-duration": "1000"
+                  }
+                },
+                [_vm._v("Client Assisting")]
+              )
+            ]),
+            _vm._v(" "),
+            _c(
+              "h1",
+              {
+                staticClass: "text-mainPurple typing",
+                attrs: {
+                  "data-aos": "fade-right",
+                  "data-aos-delay": "300",
+                  "data-aos-duration": "1000"
+                }
+              },
+              [_vm._v("Markable")]
+            ),
+            _vm._v(" "),
+            _c(
+              "p",
+              {
+                staticClass: "text-mainPurple",
+                attrs: {
+                  "data-aos": "fade-right",
+                  "data-aos-delay": "350",
+                  "data-aos-duration": "1000"
+                }
+              },
+              [
+                _vm._v(
+                  "Creating custom websites for anything your business does."
+                )
+              ]
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "w-1/2 relative mt-20 md:mt-0 md:pt-56 pt-0 pb-32",
+            attrs: {
+              "data-aos": "zoom-in-up",
+              "data-aos-delay": "500",
+              "data-aos-duration": "1000"
+            }
+          },
+          [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "md:w-64 w-48 h-48 md:h-64 mx-auto relative z-10 logo-right"
+              },
+              [
+                _c("img", {
+                  staticClass: "w-full h-full rounded-full",
+                  attrs: { src: "/assets/img/markable-logo.svg" }
+                })
+              ]
+            ),
+            _vm._v(" "),
+            _c("div", {
+              staticClass:
+                "md:w-24 w-16 md:h-24 h-16 absolute bg-mainBlue rounded-full mx-auto circle-one"
+            }),
+            _vm._v(" "),
+            _c("div", {
+              staticClass:
+                "md:w-40 w-24 h-24 md:h-40 bg-mainPurple rounded-full mx-auto absolute circle-two"
+            }),
+            _vm._v(" "),
+            _c("div", {
+              staticClass:
+                "md:w-24 w-16 md:h-24 h-16 bg-mainBlue absolute rounded-full mx-auto circle-three"
+            }),
+            _vm._v(" "),
+            _c("div", {
+              staticClass:
+                "md:w-40 w-24 h-24 md:h-40 bg-mainPurple rounded-full mx-auto absolute circle-five"
+            })
+          ]
+        )
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -3772,79 +3741,6 @@ function normalizeComponent (
     options: options
   }
 }
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-typed-js/dist/vue-typed-js.common.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/vue-typed-js/dist/vue-typed-js.common.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {module.exports=function(modules){function __webpack_require__(moduleId){if(installedModules[moduleId])return installedModules[moduleId].exports;var module=installedModules[moduleId]={i:moduleId,l:!1,exports:{}};return modules[moduleId].call(module.exports,module,module.exports,__webpack_require__),module.l=!0,module.exports}var installedModules={};return __webpack_require__.m=modules,__webpack_require__.c=installedModules,__webpack_require__.i=function(value){return value},__webpack_require__.d=function(exports,name,getter){__webpack_require__.o(exports,name)||Object.defineProperty(exports,name,{configurable:!1,enumerable:!0,get:getter})},__webpack_require__.n=function(module){var getter=module&&module.__esModule?function(){return module.default}:function(){return module};return __webpack_require__.d(getter,"a",getter),getter},__webpack_require__.o=function(object,property){return Object.prototype.hasOwnProperty.call(object,property)},__webpack_require__.p="",__webpack_require__(__webpack_require__.s=2)}([function(module,exports,__webpack_require__){__webpack_require__(6);var Component=__webpack_require__(7)(__webpack_require__(4),__webpack_require__(8),null,null);module.exports=Component.exports},function(module,__webpack_exports__,__webpack_require__){"use strict";__webpack_require__.d(__webpack_exports__,"a",function(){return props}),__webpack_require__.d(__webpack_exports__,"b",function(){return getEventHandlers});var props={strings:{type:Array,required:!1,default:function(){return["Hello World!"]}},stringsElement:{type:String,required:!1,default:null},typeSpeed:{type:Number,required:!1,default:50},startDelay:{type:Number,required:!1,default:0},backSpeed:{type:Number,required:!1,default:0},smartBackspace:{type:Boolean,required:!1,default:!0},shuffle:{type:Boolean,required:!1,default:!1},backDelay:{type:Number,required:!1,default:700},fadeOut:{type:Boolean,required:!1,default:!1},fadeOutClass:{type:String,required:!1,default:"typed-fade-out"},fadeOutDelay:{type:Number,required:!1,default:500},loop:{type:Boolean,required:!1,default:!1},loopCount:{type:Number,required:!1,default:1/0},showCursor:{type:Boolean,required:!1,default:!0},cursorChar:{type:String,required:!1,default:"|"},autoInsertCss:{type:Boolean,required:!1,default:!0},attr:{type:String,required:!1,default:null},bindInputFocusEvents:{type:Boolean,required:!1,default:!1},contentType:{type:String,required:!1,default:"html"}},getEventHandlers=function(context,typedConfig){return typedConfig.onComplete=function(){context.$emit("onComplete")},typedConfig.preStringTyped=function(){context.$emit("preStringTyped")},typedConfig.onStringTyped=function(){context.$emit("onStringTyped")},typedConfig.onLastStringBackspaced=function(){context.$emit("onLastStringBackspaced")},typedConfig.onTypingPaused=function(){context.$emit("onTypingPaused")},typedConfig.onTypingResumed=function(){context.$emit("onTypingResumed")},typedConfig.onReset=function(){context.$emit("onReset")},typedConfig.onStop=function(){context.$emit("onStop")},typedConfig.onStart=function(){context.$emit("onStart")},typedConfig.onDestroy=function(){context.$emit("onDestroy")},typedConfig}},function(module,__webpack_exports__,__webpack_require__){"use strict";function install(Vue){Vue.component("vue-typed-js",__WEBPACK_IMPORTED_MODULE_0__components_VueTypedJs_vue___default.a)}Object.defineProperty(__webpack_exports__,"__esModule",{value:!0}),__webpack_exports__.install=install;var __WEBPACK_IMPORTED_MODULE_0__components_VueTypedJs_vue__=__webpack_require__(0),__WEBPACK_IMPORTED_MODULE_0__components_VueTypedJs_vue___default=__webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_VueTypedJs_vue__);__webpack_require__.d(__webpack_exports__,"VueTypedJs",function(){return __WEBPACK_IMPORTED_MODULE_0__components_VueTypedJs_vue___default.a});var plugin={version:"0.1.2",install:install};__webpack_exports__.default=plugin;var GlobalVue=null;"undefined"!=typeof window?GlobalVue=window.Vue:"undefined"!=typeof global&&(GlobalVue=global.Vue),GlobalVue&&GlobalVue.use(plugin)},function(module,exports,__webpack_require__){(function(module){var __WEBPACK_AMD_DEFINE_FACTORY__,__WEBPACK_AMD_DEFINE_ARRAY__,__WEBPACK_AMD_DEFINE_RESULT__,_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(obj){return typeof obj}:function(obj){return obj&&"function"==typeof Symbol&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj};/*!
- * 
- *   typed.js - A JavaScript Typing Animation Library
- *   Author: Matt Boldt <me@mattboldt.com>
- *   Version: v2.0.6
- *   Url: https://github.com/mattboldt/typed.js
- *   License(s): MIT
- * 
- */
-!function(root,factory){"object"===_typeof(exports)&&"object"===_typeof(module)?module.exports=factory():(__WEBPACK_AMD_DEFINE_ARRAY__=[],__WEBPACK_AMD_DEFINE_FACTORY__=factory,void 0!==(__WEBPACK_AMD_DEFINE_RESULT__="function"==typeof __WEBPACK_AMD_DEFINE_FACTORY__?__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports,__WEBPACK_AMD_DEFINE_ARRAY__):__WEBPACK_AMD_DEFINE_FACTORY__)&&(module.exports=__WEBPACK_AMD_DEFINE_RESULT__))}(0,function(){return function(modules){function __webpack_require__(moduleId){if(installedModules[moduleId])return installedModules[moduleId].exports;var module=installedModules[moduleId]={exports:{},id:moduleId,loaded:!1};return modules[moduleId].call(module.exports,module,module.exports,__webpack_require__),module.loaded=!0,module.exports}var installedModules={};return __webpack_require__.m=modules,__webpack_require__.c=installedModules,__webpack_require__.p="",__webpack_require__(0)}([function(module,exports,__webpack_require__){"use strict";function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}Object.defineProperty(exports,"__esModule",{value:!0});var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}(),_initializerJs=__webpack_require__(1),_htmlParserJs=__webpack_require__(3),Typed=function(){function Typed(elementId,options){_classCallCheck(this,Typed),_initializerJs.initializer.load(this,options,elementId),this.begin()}return _createClass(Typed,[{key:"toggle",value:function(){this.pause.status?this.start():this.stop()}},{key:"stop",value:function(){this.typingComplete||this.pause.status||(this.toggleBlinking(!0),this.pause.status=!0,this.options.onStop(this.arrayPos,this))}},{key:"start",value:function(){this.typingComplete||this.pause.status&&(this.pause.status=!1,this.pause.typewrite?this.typewrite(this.pause.curString,this.pause.curStrPos):this.backspace(this.pause.curString,this.pause.curStrPos),this.options.onStart(this.arrayPos,this))}},{key:"destroy",value:function(){this.reset(!1),this.options.onDestroy(this)}},{key:"reset",value:function(){var restart=arguments.length<=0||void 0===arguments[0]||arguments[0];clearInterval(this.timeout),this.replaceText(""),this.cursor&&this.cursor.parentNode&&(this.cursor.parentNode.removeChild(this.cursor),this.cursor=null),this.strPos=0,this.arrayPos=0,this.curLoop=0,restart&&(this.insertCursor(),this.options.onReset(this),this.begin())}},{key:"begin",value:function(){var _this=this;this.typingComplete=!1,this.shuffleStringsIfNeeded(this),this.insertCursor(),this.bindInputFocusEvents&&this.bindFocusEvents(),this.timeout=setTimeout(function(){_this.currentElContent&&0!==_this.currentElContent.length?_this.backspace(_this.currentElContent,_this.currentElContent.length):_this.typewrite(_this.strings[_this.sequence[_this.arrayPos]],_this.strPos)},this.startDelay)}},{key:"typewrite",value:function(curString,curStrPos){var _this2=this;this.fadeOut&&this.el.classList.contains(this.fadeOutClass)&&(this.el.classList.remove(this.fadeOutClass),this.cursor&&this.cursor.classList.remove(this.fadeOutClass));var humanize=this.humanizer(this.typeSpeed),numChars=1;if(!0===this.pause.status)return void this.setPauseStatus(curString,curStrPos,!0);this.timeout=setTimeout(function(){curStrPos=_htmlParserJs.htmlParser.typeHtmlChars(curString,curStrPos,_this2);var pauseTime=0,substr=curString.substr(curStrPos);if("^"===substr.charAt(0)&&/^\^\d+/.test(substr)){var skip=1;substr=/\d+/.exec(substr)[0],skip+=substr.length,pauseTime=parseInt(substr),_this2.temporaryPause=!0,_this2.options.onTypingPaused(_this2.arrayPos,_this2),curString=curString.substring(0,curStrPos)+curString.substring(curStrPos+skip),_this2.toggleBlinking(!0)}if("`"===substr.charAt(0)){for(;"`"!==curString.substr(curStrPos+numChars).charAt(0)&&(numChars++,!(curStrPos+numChars>curString.length)););var stringBeforeSkip=curString.substring(0,curStrPos),stringSkipped=curString.substring(stringBeforeSkip.length+1,curStrPos+numChars),stringAfterSkip=curString.substring(curStrPos+numChars+1);curString=stringBeforeSkip+stringSkipped+stringAfterSkip,numChars--}_this2.timeout=setTimeout(function(){_this2.toggleBlinking(!1),curStrPos===curString.length?_this2.doneTyping(curString,curStrPos):_this2.keepTyping(curString,curStrPos,numChars),_this2.temporaryPause&&(_this2.temporaryPause=!1,_this2.options.onTypingResumed(_this2.arrayPos,_this2))},pauseTime)},humanize)}},{key:"keepTyping",value:function(curString,curStrPos,numChars){0===curStrPos&&(this.toggleBlinking(!1),this.options.preStringTyped(this.arrayPos,this)),curStrPos+=numChars;var nextString=curString.substr(0,curStrPos);this.replaceText(nextString),this.typewrite(curString,curStrPos)}},{key:"doneTyping",value:function(curString,curStrPos){var _this3=this;this.options.onStringTyped(this.arrayPos,this),this.toggleBlinking(!0),this.arrayPos===this.strings.length-1&&(this.complete(),!1===this.loop||this.curLoop===this.loopCount)||(this.timeout=setTimeout(function(){_this3.backspace(curString,curStrPos)},this.backDelay))}},{key:"backspace",value:function(curString,curStrPos){var _this4=this;if(!0===this.pause.status)return void this.setPauseStatus(curString,curStrPos,!0);if(this.fadeOut)return this.initFadeOut();this.toggleBlinking(!1);var humanize=this.humanizer(this.backSpeed);this.timeout=setTimeout(function(){curStrPos=_htmlParserJs.htmlParser.backSpaceHtmlChars(curString,curStrPos,_this4);var curStringAtPosition=curString.substr(0,curStrPos);if(_this4.replaceText(curStringAtPosition),_this4.smartBackspace){var nextString=_this4.strings[_this4.arrayPos+1];nextString&&curStringAtPosition===nextString.substr(0,curStrPos)?_this4.stopNum=curStrPos:_this4.stopNum=0}curStrPos>_this4.stopNum?(curStrPos--,_this4.backspace(curString,curStrPos)):curStrPos<=_this4.stopNum&&(_this4.arrayPos++,_this4.arrayPos===_this4.strings.length?(_this4.arrayPos=0,_this4.options.onLastStringBackspaced(),_this4.shuffleStringsIfNeeded(),_this4.begin()):_this4.typewrite(_this4.strings[_this4.sequence[_this4.arrayPos]],curStrPos))},humanize)}},{key:"complete",value:function(){this.options.onComplete(this),this.loop?this.curLoop++:this.typingComplete=!0}},{key:"setPauseStatus",value:function(curString,curStrPos,isTyping){this.pause.typewrite=isTyping,this.pause.curString=curString,this.pause.curStrPos=curStrPos}},{key:"toggleBlinking",value:function(isBlinking){if(this.cursor&&!this.pause.status&&this.cursorBlinking!==isBlinking){this.cursorBlinking=isBlinking;var status=isBlinking?"infinite":0;this.cursor.style.animationIterationCount=status}}},{key:"humanizer",value:function(speed){return Math.round(Math.random()*speed/2)+speed}},{key:"shuffleStringsIfNeeded",value:function(){this.shuffle&&(this.sequence=this.sequence.sort(function(){return Math.random()-.5}))}},{key:"initFadeOut",value:function(){var _this5=this;return this.el.className+=" "+this.fadeOutClass,this.cursor&&(this.cursor.className+=" "+this.fadeOutClass),setTimeout(function(){_this5.arrayPos++,_this5.replaceText(""),_this5.strings.length>_this5.arrayPos?_this5.typewrite(_this5.strings[_this5.sequence[_this5.arrayPos]],0):(_this5.typewrite(_this5.strings[0],0),_this5.arrayPos=0)},this.fadeOutDelay)}},{key:"replaceText",value:function(str){this.attr?this.el.setAttribute(this.attr,str):this.isInput?this.el.value=str:"html"===this.contentType?this.el.innerHTML=str:this.el.textContent=str}},{key:"bindFocusEvents",value:function(){var _this6=this;this.isInput&&(this.el.addEventListener("focus",function(e){_this6.stop()}),this.el.addEventListener("blur",function(e){_this6.el.value&&0!==_this6.el.value.length||_this6.start()}))}},{key:"insertCursor",value:function(){this.showCursor&&(this.cursor||(this.cursor=document.createElement("span"),this.cursor.className="typed-cursor",this.cursor.innerHTML=this.cursorChar,this.el.parentNode&&this.el.parentNode.insertBefore(this.cursor,this.el.nextSibling)))}}]),Typed}();exports.default=Typed,module.exports=exports.default},function(module,exports,__webpack_require__){"use strict";function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}Object.defineProperty(exports,"__esModule",{value:!0});var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source)Object.prototype.hasOwnProperty.call(source,key)&&(target[key]=source[key])}return target},_createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}(),_defaultsJs=__webpack_require__(2),_defaultsJs2=function(obj){return obj&&obj.__esModule?obj:{default:obj}}(_defaultsJs),Initializer=function(){function Initializer(){_classCallCheck(this,Initializer)}return _createClass(Initializer,[{key:"load",value:function(self,options,elementId){if(self.el="string"==typeof elementId?document.querySelector(elementId):elementId,self.options=_extends({},_defaultsJs2.default,options),self.isInput="input"===self.el.tagName.toLowerCase(),self.attr=self.options.attr,self.bindInputFocusEvents=self.options.bindInputFocusEvents,self.showCursor=!self.isInput&&self.options.showCursor,self.cursorChar=self.options.cursorChar,self.cursorBlinking=!0,self.elContent=self.attr?self.el.getAttribute(self.attr):self.el.textContent,self.contentType=self.options.contentType,self.typeSpeed=self.options.typeSpeed,self.startDelay=self.options.startDelay,self.backSpeed=self.options.backSpeed,self.smartBackspace=self.options.smartBackspace,self.backDelay=self.options.backDelay,self.fadeOut=self.options.fadeOut,self.fadeOutClass=self.options.fadeOutClass,self.fadeOutDelay=self.options.fadeOutDelay,self.isPaused=!1,self.strings=self.options.strings.map(function(s){return s.trim()}),"string"==typeof self.options.stringsElement?self.stringsElement=document.querySelector(self.options.stringsElement):self.stringsElement=self.options.stringsElement,self.stringsElement){self.strings=[],self.stringsElement.style.display="none";var strings=Array.prototype.slice.apply(self.stringsElement.children),stringsLength=strings.length;if(stringsLength)for(var i=0;i<stringsLength;i+=1){var stringEl=strings[i];self.strings.push(stringEl.innerHTML.trim())}}self.strPos=0,self.arrayPos=0,self.stopNum=0,self.loop=self.options.loop,self.loopCount=self.options.loopCount,self.curLoop=0,self.shuffle=self.options.shuffle,self.sequence=[],self.pause={status:!1,typewrite:!0,curString:"",curStrPos:0},self.typingComplete=!1;for(var i in self.strings)self.sequence[i]=i;self.currentElContent=this.getCurrentElContent(self),self.autoInsertCss=self.options.autoInsertCss,this.appendAnimationCss(self)}},{key:"getCurrentElContent",value:function(self){return self.attr?self.el.getAttribute(self.attr):self.isInput?self.el.value:"html"===self.contentType?self.el.innerHTML:self.el.textContent}},{key:"appendAnimationCss",value:function(self){if(self.autoInsertCss&&self.showCursor&&self.fadeOut){var css=document.createElement("style");css.type="text/css";var innerCss="";self.showCursor&&(innerCss+="\n        .typed-cursor{\n          opacity: 1;\n          animation: typedjsBlink 0.7s infinite;\n          -webkit-animation: typedjsBlink 0.7s infinite;\n                  animation: typedjsBlink 0.7s infinite;\n        }\n        @keyframes typedjsBlink{\n          50% { opacity: 0.0; }\n        }\n        @-webkit-keyframes typedjsBlink{\n          0% { opacity: 1; }\n          50% { opacity: 0.0; }\n          100% { opacity: 1; }\n        }\n      "),self.fadeOut&&(innerCss+="\n        .typed-fade-out{\n          opacity: 0;\n          transition: opacity .25s;\n          -webkit-animation: 0;\n                  animation: 0;\n        }\n      "),0!==css.length&&(css.innerHTML=innerCss,document.body.appendChild(css))}}}]),Initializer}();exports.default=Initializer;var initializer=new Initializer;exports.initializer=initializer},function(module,exports){"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var defaults={strings:["These are the default values...","You know what you should do?","Use your own!","Have a great day!"],stringsElement:null,typeSpeed:0,startDelay:0,backSpeed:0,smartBackspace:!0,shuffle:!1,backDelay:700,fadeOut:!1,fadeOutClass:"typed-fade-out",fadeOutDelay:500,loop:!1,loopCount:1/0,showCursor:!0,cursorChar:"|",autoInsertCss:!0,attr:null,bindInputFocusEvents:!1,contentType:"html",onComplete:function(self){},preStringTyped:function(arrayPos,self){},onStringTyped:function(arrayPos,self){},onLastStringBackspaced:function(self){},onTypingPaused:function(arrayPos,self){},onTypingResumed:function(arrayPos,self){},onReset:function(self){},onStop:function(arrayPos,self){},onStart:function(arrayPos,self){},onDestroy:function(self){}};exports.default=defaults,module.exports=exports.default},function(module,exports){"use strict";function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}Object.defineProperty(exports,"__esModule",{value:!0});var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}(),HTMLParser=function(){function HTMLParser(){_classCallCheck(this,HTMLParser)}return _createClass(HTMLParser,[{key:"typeHtmlChars",value:function(curString,curStrPos,self){if("html"!==self.contentType)return curStrPos;var curChar=curString.substr(curStrPos).charAt(0);if("<"===curChar||"&"===curChar){var endTag="";for(endTag="<"===curChar?">":";";curString.substr(curStrPos+1).charAt(0)!==endTag&&!(++curStrPos+1>curString.length););curStrPos++}return curStrPos}},{key:"backSpaceHtmlChars",value:function(curString,curStrPos,self){if("html"!==self.contentType)return curStrPos;var curChar=curString.substr(curStrPos).charAt(0);if(">"===curChar||";"===curChar){var endTag="";for(endTag=">"===curChar?"<":"&";curString.substr(curStrPos-1).charAt(0)!==endTag&&!(--curStrPos<0););curStrPos--}return curStrPos}}]),HTMLParser}();exports.default=HTMLParser;var htmlParser=new HTMLParser;exports.htmlParser=htmlParser}])})}).call(exports,__webpack_require__(5)(module))},function(module,__webpack_exports__,__webpack_require__){"use strict";Object.defineProperty(__webpack_exports__,"__esModule",{value:!0});var __WEBPACK_IMPORTED_MODULE_0_typed_js__=__webpack_require__(3),__WEBPACK_IMPORTED_MODULE_0_typed_js___default=__webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_typed_js__),__WEBPACK_IMPORTED_MODULE_1__config_typed_component_config__=__webpack_require__(1);__webpack_exports__.default={name:"vue-typed-js",props:__WEBPACK_IMPORTED_MODULE_1__config_typed_component_config__.a,data:function(){return{typedObj:null}},methods:{throwError:function(message){throw new TypeError(message)},initTypedJS:function(){var $typed=this.$refs.typedElement.querySelector(".typing");if(this.$slots.default.length>1)this.throwError("Just one child element allowed inside <"+this.$options.name+"> component.");else if(1===this.$slots.default.length){var typedConfig=this.$props;typedConfig=__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__config_typed_component_config__.b)(this,typedConfig),this.typedObj=new __WEBPACK_IMPORTED_MODULE_0_typed_js___default.a($typed,typedConfig)}}},mounted:function(){this.initTypedJS()}}},function(module,exports){module.exports=function(module){return module.webpackPolyfill||(module.deprecate=function(){},module.paths=[],module.children||(module.children=[]),Object.defineProperty(module,"loaded",{enumerable:!0,get:function(){return module.l}}),Object.defineProperty(module,"id",{enumerable:!0,get:function(){return module.i}}),module.webpackPolyfill=1),module}},function(module,exports){},function(module,exports){module.exports=function(rawScriptExports,compiledTemplate,scopeId,cssModules){var esModule,scriptExports=rawScriptExports=rawScriptExports||{},type=typeof rawScriptExports.default;"object"!==type&&"function"!==type||(esModule=rawScriptExports,scriptExports=rawScriptExports.default);var options="function"==typeof scriptExports?scriptExports.options:scriptExports;if(compiledTemplate&&(options.render=compiledTemplate.render,options.staticRenderFns=compiledTemplate.staticRenderFns),scopeId&&(options._scopeId=scopeId),cssModules){var computed=options.computed||(options.computed={});Object.keys(cssModules).forEach(function(key){var module=cssModules[key];computed[key]=function(){return module}})}return{esModule:esModule,exports:scriptExports,options:options}}},function(module,exports){module.exports={render:function(){var _vm=this,_h=_vm.$createElement;return(_vm._self._c||_h)("div",{ref:"typedElement",staticClass:"typed-element"},[_vm._t("default")],2)},staticRenderFns:[]}}]);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
-/***/ "./node_modules/vue-typed-js/dist/vue-typed-js.css":
-/*!*********************************************************!*\
-  !*** ./node_modules/vue-typed-js/dist/vue-typed-js.css ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../css-loader??ref--6-1!../../postcss-loader/src??ref--6-2!./vue-typed-js.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-typed-js/dist/vue-typed-js.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/vue-typed-js/index.js":
-/*!********************************************!*\
-  !*** ./node_modules/vue-typed-js/index.js ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _dist_vue_typed_js_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dist/vue-typed-js.common */ "./node_modules/vue-typed-js/dist/vue-typed-js.common.js");
-/* harmony import */ var _dist_vue_typed_js_common__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_dist_vue_typed_js_common__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (default from non-harmony) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _dist_vue_typed_js_common__WEBPACK_IMPORTED_MODULE_0___default.a; });
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _dist_vue_typed_js_common__WEBPACK_IMPORTED_MODULE_0__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _dist_vue_typed_js_common__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var _dist_vue_typed_js_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./dist/vue-typed-js.css */ "./node_modules/vue-typed-js/dist/vue-typed-js.css");
-/* harmony import */ var _dist_vue_typed_js_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_dist_vue_typed_js_css__WEBPACK_IMPORTED_MODULE_1__);
-
-
-
 
 
 /***/ }),

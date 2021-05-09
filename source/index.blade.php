@@ -38,12 +38,11 @@
 </section>
 
 <div class="bg-cover bg-no-repeat w-full" style="background-image: url(/assets/img/background-pattern-two.svg);">
-    <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="flex flex-wrap w-9/10 mx-auto pb-32 pt-16">
-        <div class="md:w-1/2 w-full pb-8 relative">
+    <div class="flex flex-wrap w-9/10 mx-auto pb-32 pt-16">
+        <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1500" class="md:w-1/2 w-full pb-8 relative">
             <h2 class="text-mainPurple">Reach Out!</h2>
             <p class="text-mainPurple max-w-9/10 mt-4">Even if you just have questions, feel free to reach out and our team will connect with you. We will work with you to find out your best path!</p>
             <p class="text-mainPurple max-w-9/10 mt-8">If you prefer a direct line to us, feel free to reach out with a phone call or a direct email.</p>
-
 
             <div class="flex items-center mt-8">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#282651" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -66,7 +65,7 @@
 
         </div>
 
-        <div class="md:w-1/2 w-full border-8 p-8 pt-12 border-mainBlue bg-mainPurple">
+        <div data-aos="fade-down" data-aos-delay="0" data-aos-duration="1500" class="md:w-1/2 w-full border-8 p-8 pt-12 border-mainBlue bg-mainPurple">
             <div id="contact-us">
                 <h2 class="text-white mx-0 md:mx-4">Interested in working with us?</h2>
                 <h4 class="text-white mx-0 md:mx-4">Fill out the form below to reach out!</h4>
@@ -76,28 +75,28 @@
                         <div class="w-full pb-4">
                             <div class="flex flex-col mx-0 md:mx-4">
                                 <label class="text-mainPurple" for="company_name">Company Name</label>
-                                <input class="border-b-2 border-mainBlue placeholder-mainBlue h-12 pl-4 bg-mainPurple" placeholder="Business Name" type="text" name="company_name" id="company_name">
+                                <input class="border-b-2 border-mainBlue placeholder-mainBlue text-white h-12 pl-4 bg-mainPurple" placeholder="Business Name" type="text" name="company_name" id="company_name">
                             </div>
                         </div>
 
                         <div class="w-full pb-4">
                             <div class="flex flex-col mx-0 md:mx-4">
                                 <label class="text-mainPurple" for="full_name">Full Name</label>
-                                <input class="border-b-2 border-mainBlue placeholder-mainBlue h-12 pl-4 bg-mainPurple" placeholder="Full Name" type="text" name="full_name" id="full_name">
+                                <input class="border-b-2 border-mainBlue placeholder-mainBlue text-white h-12 pl-4 bg-mainPurple" placeholder="Full Name" type="text" name="full_name" id="full_name">
                             </div>
                         </div>
 
                         <div class="md:w-1/2 w-full pb-4">
                             <div class="flex flex-col mx-0 md:mx-4">
                                 <label class="text-mainPurple" for="number">Phone Number</label>
-                                <input class="border-b-2 border-mainBlue placeholder-mainBlue h-12 pl-4 bg-mainPurple" placeholder="Phone Number" type="text" name="number" id="number">
+                                <input class="border-b-2 border-mainBlue placeholder-mainBlue text-white h-12 pl-4 bg-mainPurple" placeholder="Phone Number" type="text" name="number" id="number">
                             </div>
                         </div>
 
                         <div class="md:w-1/2 w-full pb-4">
                             <div class="flex flex-col mx-0 md:mx-4">
                                 <label class="text-mainPurple" for="email">Email</label>
-                                <input class="border-b-2 border-mainBlue placeholder-mainBlue h-12 pl-4 bg-mainPurple" placeholder="Email" type="text" name="email" id="email">
+                                <input class="border-b-2 border-mainBlue placeholder-mainBlue text-white h-12 pl-4 bg-mainPurple" placeholder="Email" type="text" name="email" id="email">
                             </div>
                         </div>
 
